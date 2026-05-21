@@ -8,7 +8,7 @@ AI 知识库助手是一个自动化技术情报管线：每天 19:00（UTC+8）
 
 | 组件 | 技术选型 | 用途 |
 |------|---------|------|
-| 运行时 | Python 3.12 | 核心编程语言 |
+| 运行时 | Python 3.13 | 核心编程语言 |
 | AI 编排 | OpenCode + DeepSeek | Agent 驱动的内容采集、分析、整理 |
 | 工作流引擎 | LangGraph | 定义采集→分析→分发多步骤有状态管道 |
 | 网页抓取 | OpenClaw | 结构化抓取 GitHub Trending / Hacker News |
@@ -33,8 +33,8 @@ AI 知识库助手是一个自动化技术情报管线：每天 19:00（UTC+8）
 │                   Agent 编排层 (OpenCode)                 │
 │                                                         │
 │  ┌──────────┐    ┌──────────┐    ┌──────────────┐      │
-│  │ 采集 Agent │───▶│ 分析 Agent │───▶│ 整理 Agent    │      │
-│  │ Collector │    │ Analyzer  │    │ Organizer    │      │
+│  │ 采集 Agent │───▶│ 分析 Agent │───▶│ 整理 Agent   │ ───▶ 分发Agent     │
+│  │ Collector │    │ Analyzer  │    │ Organizer    │    │ Distributor     │            
 │  └──────────┘    └──────────┘    └──────────────┘      │
 │                                                         │
 │              工作流引擎: LangGraph                        │
