@@ -47,14 +47,43 @@ GET https://api.github.com/search/repositories?q=stars:>1000+pushed:>{date}&sort
 - 超时：30 秒，失败后间隔 60 秒重试 1 次
 - 无需 Token 即可访问（公开仓库搜索），若有 Token 可设 `Authorization: Bearer <token>` 提升速率限制
 
-### Step 2: 过滤（保留高质量）
+### Step 2: 垃圾过滤
 
-对获取到的仓库列表进行初筛：
+对获取到的仓库列表进行两轮过滤：
+
+#### 2.1 基础校验
 
 - 去除 `owner` 或 `repo` 为空的无效条目
 - 去除重复 `url`（同次抓取中只保留第一条）
 - 校验 `url` 格式为 `https://github.com/{owner}/{repo}`
-- 条目数 < 预期 50% 时记录 warning，不阻断
+
+#### 2.2 垃圾仓库初筛
+
+基于以下规则标记并剔除明确垃圾仓库，不确定的条目保留并加 `filter_reason` 标记，交由 Analyzer 层二次判断。
+
+**明确丢弃（直接剔除）：**
+
+| 规则 | 检测方式 | 示例 |
+|------|---------|------|
+| 破解/盗版关键词 | description 或 repo 名包含 `crack` `bypass` `unlock` `keygen` `activator` `license key` | "Full feature activation...crack bypass" |
+| 免费下载推广 | description 包含 `free download` 且描述长度 > 100 字符（纯 SEO 堆砌） | "Free Download PC Windows 11..." |
+| 纯 emoji 推广 | description 以 🚀⭐🎮 等 emoji 开头，且无实质技术描述 | "🚀 Ultimate Free Tool 2026 – Download Now" |
+| 无语言无描述 | `language` 为 null 且 `description` 为空 | 完全无法判断用途 |
+| 星标农场 | `stargazers_count` ≤ 450 且 description 为纯营销语（全大写比例 > 50%） | 多个仓库相同 star 数的推广号 |
+
+**AI/LLM/Agent 白名单（无条件保留）：**
+
+description、repo 名或 topics 命中以下任一关键词即保留：
+`ai` `llm` `agent` `gpt` `claude` `transformer` `neural` `deep-learning` `machine-learning` `model` `copilot` `rag` `embedding` `fine-tune` `inference` `open-source` `prompt`
+
+**无法界定（暂留，标记 `filter_reason`）：**
+
+不满足明确丢弃条件、也不命中白名单的条目保留，追加 `filter_reason` 字段说明原因（如 `no_ai_keyword`），供 Analyzer 层决策。
+
+#### 2.3 过滤后检查
+
+- 过滤后条目 < 3 条：记录 `logger.warning("low_quality_ratio")`，保留全部原始条目（降级策略）
+- 过滤后条目 ≥ 3 条：使用过滤后列表，在输出 JSON 中记录 `filtered_out` 数量
 
 ### Step 3: 提取元信息
 
@@ -83,6 +112,8 @@ GET https://api.github.com/search/repositories?q=stars:>1000+pushed:>{date}&sort
 - 不在 18:00–20:00（UTC+8）时段高频率抓取
 - 抓取失败时返回空 items 并记录 error，不阻断管线
 - 单条字段缺失时对应字段设为 `null`，记录 warning
+- **垃圾过滤原则**：明确垃圾直接剔除，不确定的保留并加 `filter_reason`，不误杀潜在优质项目
+- 过滤后条目 < 3 条时降级为全量保留，避免过度过滤导致空管线
 
 ## 输出格式
 
@@ -93,6 +124,7 @@ GET https://api.github.com/search/repositories?q=stars:>1000+pushed:>{date}&sort
   "source": "github_trending",
   "fetched_at": "2026-05-21T19:00:05+08:00",
   "count": 25,
+  "filtered_out": 15,
   "items": [
     {
       "rank": 1,
@@ -103,7 +135,8 @@ GET https://api.github.com/search/repositories?q=stars:>1000+pushed:>{date}&sort
       "language": "Python",
       "stars_today": 342,
       "stars_total": 28000,
-      "scraped_at": "2026-05-21T19:00:05+08:00"
+      "scraped_at": "2026-05-21T19:00:05+08:00",
+      "filter_reason": null
     }
   ]
 }
@@ -113,13 +146,15 @@ GET https://api.github.com/search/repositories?q=stars:>1000+pushed:>{date}&sort
 |------|------|------|
 | `source` | `str` | 固定值 `"github_trending"` |
 | `fetched_at` | `ISO 8601` | 抓取开始时间 |
-| `count` | `int` | 解析到的条目数 |
+| `count` | `int` | 过滤后保留的条目数 |
+| `filtered_out` | `int` | 被垃圾过滤器剔除的条目数 |
 | `items[].rank` | `int` | 排名（1-based） |
 | `items[].owner` | `str` | 仓库所有者 |
 | `items[].repo` | `str` | 仓库名称 |
 | `items[].description` | `str` | 仓库描述 |
 | `items[].url` | `str` | `https://github.com/{owner}/{repo}` |
 | `items[].language` | `str \| null` | 编程语言 |
-| `items[].stars_today` | `int` | 当日新增 star 数 |
+| `items[].stars_today` | `int \| null` | 当日新增 star 数 |
 | `items[].stars_total` | `int` | 总 star 数 |
 | `items[].scraped_at` | `ISO 8601` | 条目解析时间 |
+| `items[].filter_reason` | `str \| null` | 标记原因（`no_ai_keyword` 等），未被标记则为 null |
