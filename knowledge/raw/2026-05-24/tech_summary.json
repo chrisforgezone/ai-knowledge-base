@@ -1,0 +1,370 @@
+{
+  "analyzed_at": "2026-05-24T19:30:00+08:00",
+  "sources": {
+    "github_trending": 22
+  },
+  "total_items": 22,
+  "analyzed_items": 22,
+  "discarded_items": 13,
+  "results": [
+    {
+      "rank": 1,
+      "source": "github_trending",
+      "source_url": "https://github.com/FoundZiGu/GuJumpgate",
+      "raw_title": "FoundZiGu/GuJumpgate",
+      "summary": "无描述信息，无法判断项目用途",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "项目无描述，缺乏可评估信息",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 2,
+      "source": "github_trending",
+      "source_url": "https://github.com/thananon/9arm-skills",
+      "raw_title": "thananon/9arm-skills",
+      "summary": "无描述信息，无法判断项目用途",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "项目无描述，缺乏可评估信息",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 3,
+      "source": "github_trending",
+      "source_url": "https://github.com/Doorman11991/smallcode",
+      "raw_title": "Doorman11991/smallcode",
+      "summary": "专为小参数LLM优化的AI编程Agent，4B模型可达87%基准分",
+      "highlights": [
+        "专为4B级别小模型优化，降低AI编程助手的硬件门槛",
+        "编码基准达87%，逼近大模型性能水平",
+        "支持本地部署，无需云端算力依赖"
+      ],
+      "score": 8,
+      "score_reason": "小模型AI编程突破87%基准分，可直接降低AI编程工具的部署成本和使用门槛",
+      "tags": ["AI-Coding", "Small-LLM", "Agent", "开源"],
+      "status": "completed"
+    },
+    {
+      "rank": 4,
+      "source": "github_trending",
+      "source_url": "https://github.com/perplexityai/bumblebee",
+      "raw_title": "perplexityai/bumblebee",
+      "summary": "Perplexity开源的供应链安全扫描器，检测软件包暴露风险",
+      "highlights": [
+        "只读扫描模式，安全无侵入",
+        "覆盖包管理器、扩展、开发者工具多维元数据",
+        "Perplexity官方出品，面向已知供应链攻击检测"
+      ],
+      "score": 5,
+      "score_reason": "实用供应链安全工具，由知名团队维护，但与AI/Agent核心领域关联有限",
+      "tags": ["安全", "供应链", "Go", "Perplexity"],
+      "status": "completed"
+    },
+    {
+      "rank": 5,
+      "source": "github_trending",
+      "source_url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "raw_title": "datawhalechina/Agent-Learning-Hub",
+      "summary": "Datawhale出品的AI Agent系统化学习路线与资料库",
+      "highlights": [
+        "系统化整理AI Agent学习路径，从入门到进阶",
+        "Datawhale社区背书，内容质量有保障",
+        "配套在线文档，适合自学和教学场景"
+      ],
+      "score": 6,
+      "score_reason": "高质量AI Agent教育资源，对入门者有直接帮助，但非技术创新型项目",
+      "tags": ["AI-Agent", "教程", "学习资源", "中文"],
+      "status": "completed"
+    },
+    {
+      "rank": 6,
+      "source": "github_trending",
+      "source_url": "https://github.com/sapientinc/HRM-Text",
+      "raw_title": "sapientinc/HRM-Text",
+      "summary": "基于HRM分层推理架构的1B参数文本生成模型",
+      "highlights": [
+        "提出HRM分层推理模型架构，结合任务完成与潜在空间推理",
+        "仅1B参数实现文本生成，探索非Transformer新范式",
+        "开源预训练方案，为LLM架构多样性提供重要参考"
+      ],
+      "score": 9,
+      "score_reason": "HRM架构开创小模型生成新方向，为LLM架构演进提供重要参考范式",
+      "tags": ["LLM", "HRM", "新架构", "预训练", "小模型"],
+      "status": "completed"
+    },
+    {
+      "rank": 7,
+      "source": "github_trending",
+      "source_url": "https://github.com/kageroumado/phosphene",
+      "raw_title": "kageroumado/phosphene",
+      "summary": "macOS Tahoe视频壁纸引擎",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "桌面美化工具，与AI/Agent领域无关",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 8,
+      "source": "github_trending",
+      "source_url": "https://github.com/lynote-ai/humanize-text",
+      "raw_title": "lynote-ai/humanize-text",
+      "summary": "开源AI文本人性化工具，绕过AI检测器",
+      "highlights": [
+        "支持绕过Turnitin、GPTZero等主流AI检测器",
+        "集成Dify、n8n等工作流平台生态",
+        "开源免费，无需注册"
+      ],
+      "score": 5,
+      "score_reason": "AI文本检测绕过工具，有实用价值但争议性较大，技术壁垒不高",
+      "tags": ["AI文本", "检测绕过", "开源"],
+      "status": "completed"
+    },
+    {
+      "rank": 9,
+      "source": "github_trending",
+      "source_url": "https://github.com/WUBING2023/PaperSpine",
+      "raw_title": "WUBING2023/PaperSpine",
+      "summary": "基于Codex的学术论文智能学习与改写工具",
+      "highlights": [
+        "以论文核心论点驱动学习流程，构建证据链",
+        "支持修订矩阵和LaTeX安全审计，适配学术写作",
+        "Codex驱动的学术阅读理解与重写，场景垂直"
+      ],
+      "score": 7,
+      "score_reason": "将AI Agent系统化应用于学术写作场景，流程设计完整，对科研人员有实用价值",
+      "tags": ["Agent", "学术写作", "Codex", "论文"],
+      "status": "completed"
+    },
+    {
+      "rank": 10,
+      "source": "github_trending",
+      "source_url": "https://github.com/LiuMengxuan04/shushu-internship-tool",
+      "raw_title": "LiuMengxuan04/shushu-internship-tool",
+      "summary": "岗位描述转项目、项目转简历、简历转面试的一站式求职工具",
+      "highlights": [],
+      "score": 3,
+      "score_reason": "求职辅助工具，技术含量有限，与AI/Agent核心领域关联弱",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 11,
+      "source": "github_trending",
+      "source_url": "https://github.com/basketikun/infinite-canvas",
+      "raw_title": "basketikun/infinite-canvas",
+      "summary": "面向AI创作的开源无限画布工作台",
+      "highlights": [
+        "集成AI生图、参考图编辑、画布编排于一体",
+        "内置对话助手和提示词库，降低AI创作门槛",
+        "面向AI原生创作场景设计，非传统绘图工具"
+      ],
+      "score": 7,
+      "score_reason": "将多项AI能力深度整合进创作工作台，对AI辅助设计场景有直接落地价值",
+      "tags": ["AI创作", "画布", "开源", "工具"],
+      "status": "completed"
+    },
+    {
+      "rank": 12,
+      "source": "github_trending",
+      "source_url": "https://github.com/evilsocket/audit",
+      "raw_title": "evilsocket/audit",
+      "summary": "8阶段流水线式漏洞发现Agent，自动化安全审计",
+      "highlights": [
+        "8阶段流水线覆盖完整安全审计链路",
+        "evilsocket开发，安全领域技术权威性强",
+        "将Agent框架应用于安全攻防，拓展AI应用边界"
+      ],
+      "score": 8,
+      "score_reason": "将AI Agent系统化应用于安全漏洞挖掘，技术权威性强且实用价值明确",
+      "tags": ["AI-Agent", "安全", "漏洞发现", "自动化"],
+      "status": "completed"
+    },
+    {
+      "rank": 13,
+      "source": "github_trending",
+      "source_url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "raw_title": "AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "summary": "Claude第三方下载推广页面，含破解和反向代理功能",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "疑似SEO推广仓库，描述为关键词堆砌，非原创技术项目",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 14,
+      "source": "github_trending",
+      "source_url": "https://github.com/paradigmxyz/centaur",
+      "raw_title": "paradigmxyz/centaur",
+      "summary": "多人自托管安全Agent框架",
+      "highlights": [
+        "支持多人协作的Agent场景，扩展单Agent到多用户",
+        "自托管架构保障数据安全与隐私",
+        "Paradigm出品，面向实用化的Agent部署方案"
+      ],
+      "score": 8,
+      "score_reason": "多人协作Agent框架填补市场空白，自托管方案兼顾安全与实用性",
+      "tags": ["AI-Agent", "多人协作", "自托管", "框架"],
+      "status": "completed"
+    },
+    {
+      "rank": 15,
+      "source": "github_trending",
+      "source_url": "https://github.com/larajuniorlara/Claude-Design-Studio",
+      "raw_title": "larajuniorlara/Claude-Design-Studio",
+      "summary": "Claude AI设计工具下载推广页面",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "emoji开头推广描述，无编程语言，纯SEO下载类仓库",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 16,
+      "source": "github_trending",
+      "source_url": "https://github.com/Lablez/Ping-Slayer-Network-Optimizer",
+      "raw_title": "Lablez/Ping-Slayer-Network-Optimizer",
+      "summary": "网络优化工具推广页面",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "emoji推广描述，无编程语言，与AI无关的下载类仓库",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 17,
+      "source": "github_trending",
+      "source_url": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "raw_title": "muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "summary": "AI编排工具套件推广页面",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "emoji推广描述，无编程语言，疑似SEO关键词堆砌仓库",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 18,
+      "source": "github_trending",
+      "source_url": "https://github.com/pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "raw_title": "pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "summary": "Yuzu模拟器下载推广页面",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏模拟器推广类仓库，与AI无关",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 19,
+      "source": "github_trending",
+      "source_url": "https://github.com/bollahouse/office-2024-pro-integration-suite",
+      "raw_title": "bollahouse/office-2024-pro-integration-suite",
+      "summary": "Office软件下载推广页面",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "盗版软件推广类仓库，无技术价值",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 20,
+      "source": "github_trending",
+      "source_url": "https://github.com/rayhayqal/Mythos-Claude-Skill-Forge",
+      "raw_title": "rayhayqal/Mythos-Claude-Skill-Forge",
+      "summary": "Claude Agent技能构建工具推广",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "emoji推广描述，无编程语言，疑似SEO关键词堆砌仓库",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 21,
+      "source": "github_trending",
+      "source_url": "https://github.com/sofian160616/Delta-Inject-Workstation",
+      "raw_title": "sofian160616/Delta-Inject-Workstation",
+      "summary": "Roblox脚本注入工具",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏作弊工具，与AI无关",
+      "tags": [],
+      "status": "discarded"
+    },
+    {
+      "rank": 22,
+      "source": "github_trending",
+      "source_url": "https://github.com/jskblue/Tomodachi-Island-Life-Remastered",
+      "raw_title": "jskblue/Tomodachi-Island-Life-Remastered",
+      "summary": "游戏下载推广页面",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏推广类仓库，与AI无关",
+      "tags": [],
+      "status": "discarded"
+    }
+  ],
+  "trends": {
+    "common_themes": [
+      {
+        "theme": "AI Agent 框架与应用",
+        "count": 4,
+        "strength": "高",
+        "example_urls": [
+          "https://github.com/Doorman11991/smallcode",
+          "https://github.com/evilsocket/audit",
+          "https://github.com/paradigmxyz/centaur",
+          "https://github.com/WUBING2023/PaperSpine"
+        ]
+      },
+      {
+        "theme": "小模型与高效架构",
+        "count": 2,
+        "strength": "中",
+        "example_urls": [
+          "https://github.com/sapientinc/HRM-Text",
+          "https://github.com/Doorman11991/smallcode"
+        ]
+      },
+      {
+        "theme": "AI + 安全",
+        "count": 2,
+        "strength": "中",
+        "example_urls": [
+          "https://github.com/evilsocket/audit",
+          "https://github.com/perplexityai/bumblebee"
+        ]
+      },
+      {
+        "theme": "AI 辅助创作工具",
+        "count": 2,
+        "strength": "中",
+        "example_urls": [
+          "https://github.com/basketikun/infinite-canvas",
+          "https://github.com/WUBING2023/PaperSpine"
+        ]
+      }
+    ],
+    "new_concepts": [
+      {
+        "concept": "HRM (Hierarchical Reasoning Model)",
+        "description": "分层推理模型架构，将任务完成与潜在空间推理结合，探索Transformer之外的LLM新范式，仅1B参数即可实现文本生成",
+        "first_seen_at": "https://github.com/sapientinc/HRM-Text"
+      },
+      {
+        "concept": "Agent-based Vulnerability Discovery",
+        "description": "将AI Agent多阶段流水线应用于漏洞发现领域，8阶段自动化覆盖完整安全审计链路",
+        "first_seen_at": "https://github.com/evilsocket/audit"
+      },
+      {
+        "concept": "Multiplayer Self-hosted Agents",
+        "description": "多人协作的自托管Agent部署方案，支持多人共享Agent会话，兼顾协作效率与数据主权",
+        "first_seen_at": "https://github.com/paradigmxyz/centaur"
+      }
+    ]
+  }
+}
