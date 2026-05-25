@@ -224,7 +224,6 @@ def score_format(data: dict) -> DimensionScore:
     else:
         details.append("status: ❌ 缺失")
 
-    # 不判定时间戳
     # ts_fields = [
     #     data.get("published_at"),
     #     data.get("created_at"),
@@ -332,7 +331,7 @@ def analyze_file(filepath: Path) -> QualityReport:
     if not entries:
         report = QualityReport(filepath=filepath)
         report.dimensions = [
-            DimensionScore(name, 0, max_s, [f"文件中无可评分条目"])
+            DimensionScore(name, 0, max_s, ["文件中无可评分条目"])
             for name, max_s in DIMENSION_NAMES
         ]
         report.grade = "C"
