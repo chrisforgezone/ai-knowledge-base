@@ -1,0 +1,184 @@
+{
+  "analyzed_at": "2026-05-25T12:00:00+08:00",
+  "sources": {
+    "github_trending": 22,
+    "hacker_news": 0
+  },
+  "total_items": 22,
+  "analyzed_items": 8,
+  "discarded_items": 14,
+  "results": [
+    {
+      "rank": 3,
+      "source": "github_trending",
+      "source_url": "https://github.com/Doorman11991/smallcode",
+      "raw_title": "Doorman11991/smallcode",
+      "summary": "面向小参数语言模型优化的AI编程Agent，在4B激活参数模型上达到87%基准分数",
+      "highlights": [
+        "专为小模型（4B参数级别）优化的AI编程Agent，降低硬件门槛",
+        "声称在基准测试中达到87%的成绩，接近大模型编程助手水平",
+        "JavaScript实现，适合在资源受限环境中部署"
+      ],
+      "score": 7,
+      "score_reason": "小模型编程Agent是当前AI应用落地的热点方向，具有实用价值但缺乏与大模型的对比数据",
+      "tags": ["AI编程", "Agent", "小模型", "代码生成"],
+      "status": "completed"
+    },
+    {
+      "rank": 5,
+      "source": "github_trending",
+      "source_url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "raw_title": "datawhalechina/Agent-Learning-Hub",
+      "summary": "DataWhale整理的AI Agent学习路线图与资料库，涵盖从入门到进阶的系统化资源",
+      "highlights": [
+        "由知名AI教育社区DataWhale维护，内容质量有一定保障",
+        "提供从基础概念到实战项目的完整学习路径",
+        "社区驱动，持续更新"
+      ],
+      "score": 5,
+      "score_reason": "作为学习资源整理类项目有一定参考价值，但非原创技术内容，属于知识汇总",
+      "tags": ["Agent", "学习资源", "教程", "中文"],
+      "status": "completed"
+    },
+    {
+      "rank": 6,
+      "source": "github_trending",
+      "source_url": "https://github.com/sapientinc/HRM-Text",
+      "raw_title": "sapientinc/HRM-Text",
+      "summary": "基于HRM架构的1B参数文本生成模型，引入任务完成机制与潜在空间推理增强生成质量",
+      "highlights": [
+        "采用新颖的HRM（任务完成+潜在空间推理）架构，区别于传统Transformer",
+        "1B参数规模在性能和部署成本之间寻求平衡",
+        "从架构层面引入推理增强，可能为小模型性能提升提供新方向"
+      ],
+      "score": 7,
+      "score_reason": "新模型架构探索具有技术前瞻性，1B级别小模型的架构创新值得关注",
+      "tags": ["文本生成", "模型架构", "小模型", "推理增强"],
+      "status": "completed"
+    },
+    {
+      "rank": 10,
+      "source": "github_trending",
+      "source_url": "https://github.com/LiuMengxuan04/shushu-internship-tool",
+      "raw_title": "LiuMengxuan04/shushu-internship-tool",
+      "summary": "AI驱动的求职工具链，将岗位描述转化为项目、项目转化为简历、简历转化为面试准备",
+      "highlights": [
+        "覆盖求职全流程：JD分析→项目生成→简历制作→面试模拟",
+        "面向实习求职场景的工具化解决方案",
+        "Python实现，功能链条完整"
+      ],
+      "score": 5,
+      "score_reason": "针对特定场景的AI应用工具，实用但领域较窄，技术深度一般",
+      "tags": ["AI工具", "求职", "简历", "中文"],
+      "status": "completed"
+    },
+    {
+      "rank": 11,
+      "source": "github_trending",
+      "source_url": "https://github.com/basketikun/infinite-canvas",
+      "raw_title": "basketikun/infinite-canvas",
+      "summary": "面向AI创作的开源无限画布工作台，集成图像生成、参考图编辑、对话助手和提示词管理",
+      "highlights": [
+        "将AI图像生成、编辑、对话助手整合到一个画布界面中",
+        "提供提示词库和素材管理功能，提升创作流程效率",
+        "TypeScript实现，面向AI辅助创作的一站式工作台"
+      ],
+      "score": 6,
+      "score_reason": "AI创作工具的集成化方案有一定创新性，功能覆盖面广但定位偏向特定应用场景",
+      "tags": ["AI创作", "图像生成", "画布工具", "提示词"],
+      "status": "completed"
+    },
+    {
+      "rank": 12,
+      "source": "github_trending",
+      "source_url": "https://github.com/evilsocket/audit",
+      "raw_title": "evilsocket/audit",
+      "summary": "知名安全研究者的8阶段漏洞发现Agent，自动化安全审计流程",
+      "highlights": [
+        "由知名安全研究者evilsocket开发，具备领域权威性",
+        "采用8阶段流水线架构，系统化地发现安全漏洞",
+        "将AI Agent能力应用于安全审计，拓展Agent应用边界"
+      ],
+      "score": 8,
+      "score_reason": "安全+AI Agent的结合具有强实用价值，开发者背景和流水线设计均值得关注",
+      "tags": ["安全", "Agent", "漏洞检测", "自动化审计"],
+      "status": "completed"
+    },
+    {
+      "rank": 14,
+      "source": "github_trending",
+      "source_url": "https://github.com/paradigmxyz/centaur",
+      "raw_title": "paradigmxyz/centaur",
+      "summary": "支持多人协作的自托管安全Agent框架，允许团队在私有环境中部署和编排AI代理",
+      "highlights": [
+        "支持多人协作的Agent部署模式，区别于单人Agent工具",
+        "自托管架构保障数据安全与隐私",
+        "由知名加密投资机构Paradigm开发，技术质量有保障"
+      ],
+      "score": 6,
+      "score_reason": "自托管多用户Agent框架填补了团队协作场景的空白，但项目处于早期阶段",
+      "tags": ["Agent", "自托管", "安全", "多人协作"],
+      "status": "completed"
+    },
+    {
+      "rank": 17,
+      "source": "github_trending",
+      "source_url": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "raw_title": "muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "summary": "基于Claude Code Router和MCP的子代理编排框架，用于构建多Agent协作系统",
+      "highlights": [
+        "结合Claude Code Router和MCP协议实现子代理编排",
+        "提及MCP（Model Context Protocol）集成，具备协议层面的设计"
+      ],
+      "score": 4,
+      "score_reason": "概念涉及MCP和Agent编排有一定前瞻性，但项目描述营销痕迹重，缺乏技术细节",
+      "tags": ["Agent", "Claude", "MCP", "编排"],
+      "status": "completed"
+    }
+  ],
+  "trends": {
+    "common_themes": [
+      {
+        "theme": "AI Agent 多样化应用场景",
+        "count": 4,
+        "strength": "高",
+        "example_urls": [
+          "https://github.com/Doorman11991/smallcode",
+          "https://github.com/evilsocket/audit",
+          "https://github.com/paradigmxyz/centaur",
+          "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics"
+        ]
+      },
+      {
+        "theme": "小模型与边缘端LLM优化",
+        "count": 2,
+        "strength": "中",
+        "example_urls": [
+          "https://github.com/Doorman11991/smallcode",
+          "https://github.com/sapientinc/HRM-Text"
+        ]
+      },
+      {
+        "theme": "AI辅助创作与工作流工具",
+        "count": 2,
+        "strength": "中",
+        "example_urls": [
+          "https://github.com/basketikun/infinite-canvas",
+          "https://github.com/LiuMengxuan04/shushu-internship-tool"
+        ]
+      }
+    ],
+    "new_concepts": [
+      {
+        "concept": "HRM架构（Hierarchical Reasoning Model）",
+        "description": "一种融合任务完成机制与潜在空间推理的新型文本生成模型架构，区别于传统Transformer结构，在1B参数规模下实现推理增强",
+        "first_seen_at": "https://github.com/sapientinc/HRM-Text"
+      },
+      {
+        "concept": "ZeroClaw子代理（ZeroClaw Subagents）",
+        "description": "基于Claude Code Router和MCP协议的子代理编排模式，用于构建可扩展的多Agent协作系统",
+        "first_seen_at": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics"
+      }
+    ]
+  }
+}
