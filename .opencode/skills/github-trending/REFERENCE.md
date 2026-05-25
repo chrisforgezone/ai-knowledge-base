@@ -63,7 +63,7 @@ User-Agent: ai-knowledge-base/1.0
 
 ## 输出 Schema
 
-写入 `knowledge/raw/YYYY-MM-DD/github_trending.json`：
+写入 `knowledge/raw/github_trending_YYYYMMDD.json`：
 
 ```json
 {

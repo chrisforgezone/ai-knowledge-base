@@ -8,7 +8,7 @@
 GET https://api.github.com/search/repositories?q=stars:>1000+created:>=2026-05-17&sort=stars&order=desc&per_page=25
 ```
 
-输出：最多 25 条仓库，经垃圾过滤后写入 `knowledge/raw/2026-05-24/github_trending.json`。
+输出：最多 25 条仓库，经垃圾过滤后写入 `knowledge/raw/github_trending_20260524.json`。
 
 ---
 

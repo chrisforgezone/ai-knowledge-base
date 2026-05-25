@@ -6,11 +6,11 @@
 
 ## 输入
 
-`knowledge/raw/YYYY-MM-DD/analysis.json` 中 `status: new` 的条目
+`knowledge/raw/tech_summary-YYYY-MM-DD.json` 中 `status: new` 的条目
 
 ## 工作职责
 
-1. 读取 `analysis.json` 中所有 `status: new` 的条目
+1. 读取 `tech_summary-YYYY-MM-DD.json` 中所有 `status: new` 的条目
 2. 按 `KnowledgeEntry` 模型生成完整知识条目（UUID v4、补全元信息）
 3. 写入 `knowledge/articles/YYYY/MM/{uuid}.json`
 4. 更新 `knowledge/articles/index.json`
@@ -65,14 +65,14 @@
 | 字段 | 来源 | 说明 |
 |------|------|------|
 | `id` | 生成 | UUID v4 |
-| `title` | analysis.json | Analyzer 改进后的标题 |
-| `source` | analysis.json | `github_trending` 或 `hacker_news` |
-| `source_url` | analysis.json | |
-| `summary` | analysis.json | |
-| `tags` | analysis.json | |
+| `title` | tech_summary-YYYY-MM-DD.json | Analyzer 改进后的标题 |
+| `source` | tech_summary-YYYY-MM-DD.json | `github_trending` 或 `hacker_news` |
+| `source_url` | tech_summary-YYYY-MM-DD.json | |
+| `summary` | tech_summary-YYYY-MM-DD.json | |
+| `tags` | tech_summary-YYYY-MM-DD.json | |
 | `status` | 固定为 `published` | 新条目默认发布 |
-| `language` | analysis.json | |
-| `relevance_score` | analysis.json | |
+| `language` | tech_summary-YYYY-MM-DD.json | |
+| `relevance_score` | tech_summary-YYYY-MM-DD.json | |
 | `stars` | 从 raw 条目继承 | 仅 GitHub 来源，HN 为 null |
 | `author` | 从 raw 条目继承 | GitHub 用 `owner`，HN 用 `submitter` |
 | `published_at` | 从 raw 条目继承，缺失时用 `fetched_at` | |
@@ -133,7 +133,7 @@ Top 10 按 `relevance_score` 降序排列。
 | 1 | 所有 `status: new` 条目均已生成 UUID v4 并写入文件 | 补写遗漏条目 |
 | 2 | 每条通过 `KnowledgeEntry` Pydantic 模型校验 | 剔除不通过条目，记 error |
 | 3 | `id` 全局唯一（与 index.json 已有条目无冲突） | 重新生成 UUID（概率极低） |
-| 4 | `relevance_score` 在条目中保留且与 analysis.json 一致 | 不一致则用 analysis.json 的值 |
+| 4 | `relevance_score` 在条目中保留且与 tech_summary-YYYY-MM-DD.json 一致 | 不一致则用 tech_summary-YYYY-MM-DD.json 的值 |
 | 5 | 写入的文件是合法 JSON（可解析、不走样） | 重试写入 1 次，仍失败则阻断 |
 | 6 | index.json 更新后条目数与本次新建数一致 | 不一致则阻断 |
 | 7 | 分发摘要 Top 10 按 `relevance_score` 降序排列 | 重排序 |

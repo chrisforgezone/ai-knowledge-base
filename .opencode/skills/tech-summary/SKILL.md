@@ -18,8 +18,8 @@ allowed-tools: Read, Grep, Glob, WebFetch
 
 从 `knowledge/raw/` 目录读取最新日期的采集数据：
 
-- 读取 `knowledge/raw/YYYY-MM-DD/github_trending.json`
-- 读取 `knowledge/raw/YYYY-MM-DD/hacker_news.json`
+- 读取 `knowledge/raw/github_trending_YYYYMMDD.json`
+- 读取 `knowledge/raw/hacker_news_YYYYMMDD.json`
 - 合并两个来源的条目，按 `rank` 排序
 - 预期总条目数：~55 条（GitHub ~25 + HN ~30）
 
@@ -58,7 +58,7 @@ allowed-tools: Read, Grep, Glob, WebFetch
 
 ### Step 4: 输出分析结果 JSON
 
-将分析结果输出为结构化 JSON，写入 `knowledge/raw/YYYY-MM-DD/tech_summary.json`。
+将分析结果输出为结构化 JSON，写入 `knowledge/raw/tech_summary-YYYY-MM-DD.json`。
 
 ## 注意事项
 
@@ -71,7 +71,7 @@ allowed-tools: Read, Grep, Glob, WebFetch
 
 ## 输出格式
 
-输出 JSON 写入 `knowledge/raw/YYYY-MM-DD/tech_summary.json`：
+输出 JSON 写入 `knowledge/raw/tech_summary-YYYY-MM-DD.json`：
 
 ```json
 {

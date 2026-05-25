@@ -6,14 +6,14 @@
 
 ## 输入
 
-`knowledge/raw/YYYY-MM-DD/github_trending.json` 和 `hacker_news.json`
+`knowledge/raw/github_trending_YYYYMMDD.json` 和 `hacker_news_YYYYMMDD.json`
 
 ## 工作职责
 
 1. 读取原始条目，批量调用 DeepSeek API 进行语义分析
 2. 与 `knowledge/articles/index.json` 去重
 3. 标记低质量条目（`relevance_score < 0.3`）
-4. 输出 `analysis.json` 落盘，将 `status: new` 的条目传递给 Organizer
+4. 输出 `tech_summary-YYYY-MM-DD.json` 落盘，将 `status: new` 的条目传递给 Organizer
 
 **批量策略**：每批 10 条原始条目，一次性让 DeepSeek 返回该批次的分析结果数组。
 
@@ -22,7 +22,7 @@
 | 权限 | 范围 | 说明 |
 |------|------|------|
 | `fs:read` | `knowledge/raw/`、`knowledge/articles/index.json` | 读取原始数据与去重索引 |
-| `fs:write` | `knowledge/raw/YYYY-MM-DD/analysis.json` | 写入分析结果 |
+| `fs:write` | `knowledge/raw/tech_summary-YYYY-MM-DD.json` | 写入分析结果 |
 | `api:deepseek` | `chat/completions` | 调用 DeepSeek 做语义分析 |
 
 ## 禁止权限
@@ -55,7 +55,7 @@
 
 ## 输出格式
 
-写入 `knowledge/raw/YYYY-MM-DD/analysis.json`：
+写入 `knowledge/raw/tech_summary-YYYY-MM-DD.json`：
 
 ```json
 {

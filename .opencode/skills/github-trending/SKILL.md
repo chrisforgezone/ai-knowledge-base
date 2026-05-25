@@ -19,7 +19,7 @@ GET https://api.github.com/search/repositories?q=stars:>1000+created:>=2026-05-1
 1. **搜索热门仓库** — 调用 GitHub Search API 获取 25 条候选仓库
 2. **垃圾过滤** — 三层过滤管线（基础校验 → 垃圾初筛 → 白名单保留），详见 [REFERENCE.md](REFERENCE.md)
 3. **提取元信息** — 对保留条目提取 rank / owner / repo / description / url / language / stars_today / stars_total / scraped_at / filter_reason
-4. **输出 JSON** — 写入 `knowledge/raw/YYYY-MM-DD/github_trending.json`，格式与 Collector Agent 一致
+4. **输出 JSON** — 写入 `knowledge/raw/github_trending_YYYYMMDD.json`，格式与 Collector Agent 一致
 
 ### 过滤管线概览
 

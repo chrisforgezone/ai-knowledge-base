@@ -12,7 +12,7 @@
 
 1. 抓取 [GitHub Trending](https://github.com/trending) 当日全部 trending repositories（预期 ~25 条）
 2. 抓取 [Hacker News](https://news.ycombinator.com/) 当日 top 30 条目
-3. 结构化存储到 `knowledge/raw/YYYY-MM-DD/`
+3. 结构化存储到 `knowledge/raw/`（文件命名格式：`{source}_YYYYMMDD.json`）
 4. 执行质量自查后返回结果给管线
 
 **不做语义筛选**：AI/LLM/Agent 关键词匹配延迟到 Analyzer 阶段。Collector 的唯一过滤是去重（同文件内相同 `url` 只保留一条）。
@@ -43,7 +43,7 @@
 
 ## 输出格式
 
-输出两个文件到 `knowledge/raw/YYYY-MM-DD/`：
+输出两个文件到 `knowledge/raw/`，以 `{source}_YYYYMMDD.json` 格式命名：
 
 ### `github_trending.json`
 
