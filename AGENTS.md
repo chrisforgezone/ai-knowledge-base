@@ -113,9 +113,9 @@ ai-knowledge-base/
 │
 ├── knowledge/                  # 知识库存储
 │   ├── raw/                    # 原始抓取数据（采集阶段中间产物）
-│   │   └── YYYY-MM-DD/         #   按日期分目录
-│   │       ├── github_trending.json
-│   │       └── hacker_news.json
+│   │   ├── github_trending_YYYYMMDD.json
+│   │   ├── hacker_news_YYYYMMDD.json
+│   │   └── tech_summary-YYYY-MM-DD.json
 │   └── articles/               # 最终结构化知识条目（JSON）
 │       ├── index.json          #   条目索引（id → 文件路径映射）
 │       └── YYYY/MM/           #   按年月分目录
@@ -221,7 +221,7 @@ new ──▶ reviewed ──▶ published ──▶ archived
 
 | Agent | 文件 | 触发时机 | 输入 | 输出 | 核心职责 |
 |-------|------|---------|------|------|---------|
-| **采集 Agent** (Collector) | `.opencode/agents/collector.md` | 每天 19:00 工作流启动 | 无（自动抓取） | `knowledge/raw/YYYY-MM-DD/*.json` | 驱动 OpenClaw 抓取 GitHub Trending / HN 前 50 条目；按关键词（AI/LLM/Agent）初筛；原始数据暂存 raw/ |
+| **采集 Agent** (Collector) | `.opencode/agents/collector.md` | 每天 19:00 工作流启动 | 无（自动抓取） | `knowledge/raw/{source}_YYYYMMDD.json` | 驱动 OpenClaw 抓取 GitHub Trending / HN 前 50 条目；按关键词（AI/LLM/Agent）初筛；原始数据暂存 raw/ |
 | **分析 Agent** (Analyzer) | `.opencode/agents/analyzer.md` | 采集完成后 | `knowledge/raw/` 原始条目 | 结构化中间结果传递给整理 Agent | 调用 DeepSeek 对每条做摘要、标签提取、相关性评分；与知识库已有条目去重；标记低质量条目 |
 | **整理 Agent** (Organizer) | `.opencode/agents/organizer.md` | 分析完成后 | 分析结果集合 | `knowledge/articles/` 新 JSON 文件 | 生成最终 JSON 条目写入 articles/；更新 index.json；生成分发摘要（Top 5 高相关条目） |
 
