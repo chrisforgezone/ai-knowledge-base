@@ -1,0 +1,78 @@
+{
+  "source": "github_search",
+  "fetched_at": "2026-05-30T00:04:05.605276+10:00",
+  "total": 121,
+  "pre_filtered": 0,
+  "items": [
+    {
+      "source": "github_search",
+      "title": "viveknaskar/everything-ai-ml",
+      "url": "https://github.com/viveknaskar/everything-ai-ml",
+      "description": "A curated collection of learning resources for Generative AI, Machine Learning, Agentic AI, LLMs, RAG, Fine-tuning, MLOps, and more.",
+      "extra": {
+        "full_name": "viveknaskar/everything-ai-ml",
+        "stargazers_count": 409,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "artificial-intelligence",
+          "machine-learning",
+          "ml",
+          "ml-ops"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "romanyn36/agentic-ai-roadmap",
+      "url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "description": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems — focused on hands-on projects, practical tools, and real-world deployment.",
+      "extra": {
+        "full_name": "romanyn36/agentic-ai-roadmap",
+        "stargazers_count": 99,
+        "language": null,
+        "topics": [
+          "agentic",
+          "agentic-ai-roadmap",
+          "ai",
+          "ai-roadmap",
+          "deep-learning",
+          "langchain",
+          "langgraph",
+          "lear",
+          "llm",
+          "machine-learning",
+          "mathematics",
+          "oopenai",
+          "roadmap",
+          "transformer"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "AI-Security-Research-Group/LLM-Attacks",
+      "url": "https://github.com/AI-Security-Research-Group/LLM-Attacks",
+      "description": "Comprehensive taxonomy of AI security vulnerabilities, LLM adversarial attacks, prompt injection techniques, and machine learning security research. Covers 71+ attack vectors including model poisoning, agentic AI exploits, and privacy breaches.",
+      "extra": {
+        "full_name": "AI-Security-Research-Group/LLM-Attacks",
+        "stargazers_count": 17,
+        "language": null,
+        "topics": [
+          "adversarial-ml",
+          "ai-privacy",
+          "ai-red-teaming",
+          "ai-security",
+          "ai-vulnerabilities",
+          "llm-attacks",
+          "machine-learning",
+          "model-poisoning",
+          "open-source-security",
+          "prompt-injection",
+          "security-taxonomy"
+        ]
+      }
+    }
+  ]
+}

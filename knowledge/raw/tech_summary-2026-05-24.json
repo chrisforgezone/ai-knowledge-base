@@ -5,9 +5,33 @@
     "hacker_news": 0
   },
   "total_items": 22,
-  "analyzed_items": 8,
+  "analyzed_items": 22,
   "discarded_items": 14,
   "results": [
+    {
+      "rank": 1,
+      "source": "github_trending",
+      "source_url": "https://github.com/FoundZiGu/GuJumpgate",
+      "raw_title": "FoundZiGu/GuJumpgate",
+      "summary": "与AI/Agent无关的JavaScript项目",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "缺少描述且无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
+      "rank": 2,
+      "source": "github_trending",
+      "source_url": "https://github.com/thananon/9arm-skills",
+      "raw_title": "thananon/9arm-skills",
+      "summary": "与AI/Agent无关的Shell项目",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "缺少描述且无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
     {
       "rank": 3,
       "source": "github_trending",
@@ -23,6 +47,18 @@
       "score_reason": "小模型编程Agent是当前AI应用落地的热点方向，具有实用价值但缺乏与大模型的对比数据",
       "tags": ["AI编程", "Agent", "小模型", "代码生成"],
       "status": "completed"
+    },
+    {
+      "rank": 4,
+      "source": "github_trending",
+      "source_url": "https://github.com/perplexityai/bumblebee",
+      "raw_title": "perplexityai/bumblebee",
+      "summary": "只读式开发者端点扫描器，用于检测软件供应链安全风险",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "开发者安全工具，虽由AI公司开发但项目本身不涉及AI/Agent技术",
+      "tags": ["安全"],
+      "status": "discarded"
     },
     {
       "rank": 5,
@@ -55,6 +91,44 @@
       "score_reason": "新模型架构探索具有技术前瞻性，1B级别小模型的架构创新值得关注",
       "tags": ["文本生成", "模型架构", "小模型", "推理增强"],
       "status": "completed"
+    },
+    {
+      "rank": 7,
+      "source": "github_trending",
+      "source_url": "https://github.com/kageroumado/phosphene",
+      "raw_title": "kageroumado/phosphene",
+      "summary": "macOS Tahoe视频壁纸引擎",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "桌面美化工具，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
+      "rank": 8,
+      "source": "github_trending",
+      "source_url": "https://github.com/lynote-ai/humanize-text",
+      "raw_title": "lynote-ai/humanize-text",
+      "summary": "开源的AI文本人性化工具，用于将AI生成内容转换为类人写作以规避检测器",
+      "highlights": [
+        "声称可绕过Turnitin、GPTZero等主流AI检测器"
+      ],
+      "score": 3,
+      "score_reason": "技术涉及AI文本处理但应用方向（绕过学术诚信检测）存在伦理争议，质量评分较低",
+      "tags": ["文本处理", "AI检测"],
+      "status": "discarded"
+    },
+    {
+      "rank": 9,
+      "source": "github_trending",
+      "source_url": "https://github.com/WUBING2023/PaperSpine",
+      "raw_title": "WUBING2023/PaperSpine",
+      "summary": "面向学术论文的Codex技能工具，用于论文论证构建和手稿重写",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "学术写作辅助工具，未通过AI关键词筛选，核心功能偏学术编辑而非AI技术",
+      "tags": ["学术工具"],
+      "status": "discarded"
     },
     {
       "rank": 10,
@@ -105,6 +179,18 @@
       "status": "completed"
     },
     {
+      "rank": 13,
+      "source": "github_trending",
+      "source_url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "raw_title": "AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "summary": "Claude Mythos客户端应用，描述为关键词堆砌的SEO推广内容",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "描述为关键词堆砌的SEO推广内容，缺乏实质性技术价值",
+      "tags": ["Claude", "低质量"],
+      "status": "discarded"
+    },
+    {
       "rank": 14,
       "source": "github_trending",
       "source_url": "https://github.com/paradigmxyz/centaur",
@@ -121,6 +207,30 @@
       "status": "completed"
     },
     {
+      "rank": 15,
+      "source": "github_trending",
+      "source_url": "https://github.com/larajuniorlara/Claude-Design-Studio",
+      "raw_title": "larajuniorlara/Claude-Design-Studio",
+      "summary": "Claude Design AI UI/UX生成器，描述为「免费下载」类推广内容",
+      "highlights": [],
+      "score": 2,
+      "score_reason": "营销推广类内容，缺乏实质性技术细节，质量很低",
+      "tags": ["Claude", "低质量"],
+      "status": "discarded"
+    },
+    {
+      "rank": 16,
+      "source": "github_trending",
+      "source_url": "https://github.com/Lablez/Ping-Slayer-Network-Optimizer",
+      "raw_title": "Lablez/Ping-Slayer-Network-Optimizer",
+      "summary": "网络延迟优化工具，用于游戏FPS提升和Ping优化",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏网络工具，无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
       "rank": 17,
       "source": "github_trending",
       "source_url": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
@@ -134,6 +244,66 @@
       "score_reason": "概念涉及MCP和Agent编排有一定前瞻性，但项目描述营销痕迹重，缺乏技术细节",
       "tags": ["Agent", "Claude", "MCP", "编排"],
       "status": "completed"
+    },
+    {
+      "rank": 18,
+      "source": "github_trending",
+      "source_url": "https://github.com/pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "raw_title": "pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "summary": "Yuzu Nintendo Switch模拟器PC版安装套件",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏模拟器工具，无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
+      "rank": 19,
+      "source": "github_trending",
+      "source_url": "https://github.com/bollahouse/office-2024-pro-integration-suite",
+      "raw_title": "bollahouse/office-2024-pro-integration-suite",
+      "summary": "Microsoft Office 2026完整套件安装器",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "办公软件安装器，无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
+      "rank": 20,
+      "source": "github_trending",
+      "source_url": "https://github.com/rayhayqal/Mythos-Claude-Skill-Forge",
+      "raw_title": "rayhayqal/Mythos-Claude-Skill-Forge",
+      "summary": "Claude Mythos AI Agent技能构建工具，描述为营销推广内容",
+      "highlights": [],
+      "score": 3,
+      "score_reason": "标题涉及Agent概念但内容为营销推广，缺乏实质技术价值",
+      "tags": ["Claude", "低质量"],
+      "status": "discarded"
+    },
+    {
+      "rank": 21,
+      "source": "github_trending",
+      "source_url": "https://github.com/sofian160616/Delta-Inject-Workstation",
+      "raw_title": "sofian160616/Delta-Inject-Workstation",
+      "summary": "Roblox PC脚本执行器Delta Executor客户端",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏脚本工具，无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
+    },
+    {
+      "rank": 22,
+      "source": "github_trending",
+      "source_url": "https://github.com/jskblue/Tomodachi-Island-Life-Remastered",
+      "raw_title": "jskblue/Tomodachi-Island-Life-Remastered",
+      "summary": "Tomodachi Life生活模拟游戏PC重制版",
+      "highlights": [],
+      "score": 1,
+      "score_reason": "游戏娱乐项目，无AI关键词，与AI/Agent领域无关",
+      "tags": ["无关"],
+      "status": "discarded"
     }
   ],
   "trends": {

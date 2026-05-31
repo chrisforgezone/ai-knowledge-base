@@ -1,0 +1,35 @@
+2026-05-30 00:04:04.942 | INFO     | __main__:main:553 | ==================================================
+2026-05-30 00:04:04.942 | INFO     | __main__:main:554 | 开始采集: github
+2026-05-30 00:04:04.942 | INFO     | __main__:collect_github:121 | [GitHub] 调用搜索 API: q=ai+agent+llm+machine+learning, per_page=3
+2026-05-30 00:04:05.603 | INFO     | __main__:collect_github:129 | [GitHub] API 返回 3 条（总计 121）
+2026-05-30 00:04:05.604 | INFO     | __main__:collect_github:155 | [GitHub] 预筛选后保留 3 条，丢弃 0 条
+2026-05-30 00:04:05.606 | INFO     | __main__:save_raw_data:228 | [github] 原始数据已保存: knowledge/raw/github-2026-05-30.json
+2026-05-30 00:04:05.606 | INFO     | __main__:main:570 |   [COLLECTED] viveknaskar/everything-ai-ml — https://github.com/viveknaskar/everything-ai-ml
+2026-05-30 00:04:05.606 | INFO     | __main__:main:570 |   [COLLECTED] romanyn36/agentic-ai-roadmap — https://github.com/romanyn36/agentic-ai-roadmap
+2026-05-30 00:04:05.606 | INFO     | __main__:main:570 |   [COLLECTED] AI-Security-Research-Group/LLM-Attacks — https://github.com/AI-Security-Research-Group/LLM-Attacks
+2026-05-30 00:04:09.410 | INFO     | __main__:main:553 | ==================================================
+2026-05-30 00:04:09.410 | INFO     | __main__:main:554 | 开始采集: rss
+2026-05-30 00:04:09.410 | INFO     | __main__:collect_rss:165 | [RSS] 获取: https://news.ycombinator.com/rss
+2026-05-30 00:04:10.721 | INFO     | __main__:collect_rss:172 | [RSS] 解析到 30 条 RSS entry
+2026-05-30 00:04:10.722 | INFO     | __main__:collect_rss:206 | [RSS] 预筛选后保留 3 条，丢弃 4 条
+2026-05-30 00:04:10.723 | INFO     | __main__:save_raw_data:228 | [rss] 原始数据已保存: knowledge/raw/rss-2026-05-30.json
+2026-05-30 00:04:52.742 | INFO     | __main__:main:558 | ==================================================
+2026-05-30 00:04:52.742 | INFO     | __main__:main:559 | 开始采集: rss
+2026-05-30 00:04:52.743 | INFO     | __main__:collect_rss:167 | [RSS] 获取: https://news.ycombinator.com/rss
+2026-05-30 00:04:53.923 | INFO     | __main__:collect_rss:177 | [RSS] 解析到 30 条 RSS entry
+2026-05-30 00:04:53.925 | INFO     | __main__:collect_rss:211 | [RSS] 预筛选后保留 3 条，丢弃 4 条
+2026-05-30 00:04:53.926 | INFO     | __main__:save_raw_data:233 | [rss] 原始数据已保存: knowledge/raw/rss-2026-05-30.json
+2026-05-30 22:08:02.590 | INFO     | __main__:main:558 | ==================================================
+2026-05-30 22:08:02.590 | INFO     | __main__:main:559 | 开始采集: rss
+2026-05-30 22:08:02.590 | INFO     | __main__:collect_rss:167 | [RSS] 获取: https://news.ycombinator.com/rss
+2026-05-30 22:08:03.659 | INFO     | __main__:collect_rss:177 | [RSS] 解析到 30 条 RSS entry
+2026-05-30 22:08:03.661 | INFO     | __main__:collect_rss:211 | [RSS] 预筛选后保留 3 条，丢弃 7 条
+2026-05-30 22:08:03.663 | INFO     | __main__:save_raw_data:233 | [rss] 原始数据已保存: knowledge/raw/rss-2026-05-30.json
+2026-05-30 22:08:03.663 | INFO     | __main__:main:592 | ==================================================
+2026-05-30 22:08:03.663 | INFO     | __main__:main:593 | 开始分析: rss (3 条)
+2026-05-30 22:08:03.670 | INFO     | __main__:analyze_batch:299 | [分析] 批次 1: 发送 3 条
+2026-05-30 22:08:20.292 | INFO     | __main__:_load_historical_urls:349 | [去重] 历史 URL 集合大小: 0
+2026-05-30 22:08:20.293 | INFO     | __main__:organize:438 | [rss] 整理完成: kept=1, discarded=2, duplicate=0, error=0
+2026-05-30 22:08:20.293 | INFO     | __main__:save_articles:475 | [rss] 文章已保存: knowledge/articles/summary-rss-2026-05-30.json
+2026-05-30 22:08:20.294 | INFO     | __main__:main:609 | ==================================================
+2026-05-30 22:08:20.294 | INFO     | __main__:main:610 | 流水线完成。

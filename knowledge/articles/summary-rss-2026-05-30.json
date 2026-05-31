@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-05-30T22:08:20.293279+10:00",
+  "source": "hacker_news_rss",
+  "total_collected": 3,
+  "pre_filtered": 0,
+  "llm_error": 0,
+  "kept": 1,
+  "discarded": 2,
+  "duplicate": 0,
+  "articles": [
+    {
+      "id": "3bf692d1",
+      "title": "凯撒与“庸人”历史理论",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48334283",
+      "summary": "该内容讨论了一种历史理论，认为平庸之人在特定条件下能扮演重要角色，并以德国皇帝威廉二世为例。与人工智能无明显关联。",
+      "tags": [
+        "历史理论",
+        "威廉二世",
+        "评论"
+      ],
+      "relevance_score": 1,
+      "status": "discarded",
+      "stars": null,
+      "created_at": "2026-05-30T22:08:20.292888+10:00"
+    },
+    {
+      "id": "7e54f995",
+      "title": "Helios：可显示英国任意地址插电式太阳能潜力的工具",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48334949",
+      "summary": "一个名为Helios的工具，能根据英国任意地址估算插电式太阳能设备的发电潜力。属于可再生能源应用项目。",
+      "tags": [
+        "太阳能",
+        "可再生能源",
+        "工具",
+        "英国"
+      ],
+      "relevance_score": 1,
+      "status": "discarded",
+      "stars": null,
+      "created_at": "2026-05-30T22:08:20.292955+10:00"
+    },
+    {
+      "id": "533211d9",
+      "title": "Mistral AI Now 峰会笔记",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48325340",
+      "summary": "本文记录了Mistral AI Now峰会的关键内容，涵盖公司最新大语言模型进展、产品战略、应用落地及行业影响等讨论。",
+      "tags": [
+        "Mistral AI",
+        "峰会",
+        "大语言模型",
+        "LLM",
+        "人工智能"
+      ],
+      "relevance_score": 9,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-05-30T22:08:20.292990+10:00"
+    }
+  ]
+}
