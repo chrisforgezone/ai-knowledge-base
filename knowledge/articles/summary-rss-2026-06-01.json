@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-06-01T04:04:46.466473+00:00",
+  "source": "hacker_news_rss",
+  "total_collected": 7,
+  "pre_filtered": 0,
+  "llm_error": 0,
+  "kept": 5,
+  "discarded": 2,
+  "duplicate": 0,
+  "articles": [
+    {
+      "id": "b47ddf38",
+      "title": "1-Bit Bonsai：面向本地设备的40亿参数轻量图像生成模型",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48346257",
+      "summary": "1-Bit Bonsai 是一款拥有40亿参数的图像生成模型，专门针对本地设备优化，可在离线环境下高效生成高质量图像，有望降低对云端算力的依赖，推动端侧AI图像创作。",
+      "tags": [
+        "图像生成",
+        "轻量模型",
+        "本地部署",
+        "1-Bit",
+        "端侧AI"
+      ],
+      "relevance_score": 9,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465727+00:00"
+    },
+    {
+      "id": "f866c31d",
+      "title": "美联航767航班因蓝牙设备名称触发安全警报被迫返航",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48345248",
+      "summary": "美联航一架波音767客机在飞行途中，因乘客设备的蓝牙名称疑似引起安全疑虑，机组决定返回纽瓦克机场。事件未造成人员伤亡，但凸显了无线设备命名可能带来的意外安全影响。",
+      "tags": [
+        "航空安全",
+        "蓝牙",
+        "意外事件"
+      ],
+      "relevance_score": 1,
+      "status": "discarded",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465808+00:00"
+    },
+    {
+      "id": "3ddd7a1c",
+      "title": "ChatGPT for Google Sheets扩展程序被曝私自外泄用户工作簿数据",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48349487",
+      "summary": "安全研究人员发现，名为“ChatGPT for Google Sheets”的浏览器扩展会在用户不知情的情况下，将工作簿内容发送至第三方服务器，引发严重的隐私泄露风险，提醒用户审慎授权AI类插件。",
+      "tags": [
+        "ChatGPT",
+        "Google Sheets",
+        "安全漏洞",
+        "数据泄露",
+        "浏览器扩展"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465832+00:00"
+    },
+    {
+      "id": "34b27015",
+      "title": "AI时代下原型设计的速度变革",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48347153",
+      "summary": "本文探讨生成式AI工具如何重塑软件原型开发流程，指出AI可大幅缩短从概念到可验证原型的周期，同时分析了在这一新范式下开发者面临的技能转型与协作挑战。",
+      "tags": [
+        "AI辅助开发",
+        "原型设计",
+        "开发效率",
+        "观点文章"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465854+00:00"
+    },
+    {
+      "id": "122d0372",
+      "title": "初级岗位招聘疲软，元凶或是远程办公而非AI",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48326721",
+      "summary": "文章质疑当前初级职位招聘减少的主流解释，认为远程工作模式阻碍了新人入职引导、团队融合与隐性知识传递，可能比AI替代效应更直接地导致了初入门槛的升高。",
+      "tags": [
+        "远程工作",
+        "招聘",
+        "AI就业影响",
+        "职场趋势"
+      ],
+      "relevance_score": 4,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465877+00:00"
+    },
+    {
+      "id": "b0e64853",
+      "title": "《Prisencolinensinainciusol》：一首无意义歌词歌曲的诞生史",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48348737",
+      "summary": "回顾意大利歌手Adriano Celentano在1972年创作的经典歌曲，其歌词模仿美式英语发音却毫无实际语义，旨在探讨语言隔阂与音乐普适性，至今仍被广泛讨论。",
+      "tags": [
+        "音乐史",
+        "无意义歌词",
+        "文化现象"
+      ],
+      "relevance_score": 1,
+      "status": "discarded",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465897+00:00"
+    },
+    {
+      "id": "e39d30a2",
+      "title": "Odysseus：可自托管的AI集成工作空间",
+      "source": "hacker_news_rss",
+      "source_url": "https://news.ycombinator.com/item?id=48346693",
+      "summary": "Odysseus 是一款开源的自托管AI工作空间，融合了笔记、文档、知识库等功能，并原生集成AI助手，用户可在自己的服务器上部署，完全掌控数据隐私与定制化能力。",
+      "tags": [
+        "自托管",
+        "AI工作空间",
+        "开源项目",
+        "隐私保护",
+        "协同工具"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": null,
+      "created_at": "2026-06-01T04:04:46.465919+00:00"
+    }
+  ]
+}

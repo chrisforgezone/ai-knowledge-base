@@ -1,0 +1,404 @@
+{
+  "source": "github_search",
+  "fetched_at": "2026-06-01T04:02:23.819668+00:00",
+  "total": 124,
+  "pre_filtered": 0,
+  "items": [
+    {
+      "source": "github_search",
+      "title": "viveknaskar/everything-ai-ml",
+      "url": "https://github.com/viveknaskar/everything-ai-ml",
+      "description": "A curated collection of learning resources for Generative AI, Machine Learning, Agentic AI, LLMs, RAG, Fine-tuning, MLOps, and more.",
+      "extra": {
+        "full_name": "viveknaskar/everything-ai-ml",
+        "stargazers_count": 412,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "artificial-intelligence",
+          "machine-learning",
+          "ml",
+          "ml-ops"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "romanyn36/agentic-ai-roadmap",
+      "url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "description": "A comprehensive AI learning roadmap covering Python fundamentals, mathematics, machine learning, deep learning, LLMs, and agentic systems — focused on hands-on projects, practical tools, and real-world deployment.",
+      "extra": {
+        "full_name": "romanyn36/agentic-ai-roadmap",
+        "stargazers_count": 99,
+        "language": null,
+        "topics": [
+          "agentic",
+          "agentic-ai-roadmap",
+          "ai",
+          "ai-roadmap",
+          "deep-learning",
+          "langchain",
+          "langgraph",
+          "lear",
+          "llm",
+          "machine-learning",
+          "mathematics",
+          "oopenai",
+          "roadmap",
+          "transformer"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "AI-Security-Research-Group/LLM-Attacks",
+      "url": "https://github.com/AI-Security-Research-Group/LLM-Attacks",
+      "description": "Comprehensive taxonomy of AI security vulnerabilities, LLM adversarial attacks, prompt injection techniques, and machine learning security research. Covers 71+ attack vectors including model poisoning, agentic AI exploits, and privacy breaches.",
+      "extra": {
+        "full_name": "AI-Security-Research-Group/LLM-Attacks",
+        "stargazers_count": 17,
+        "language": null,
+        "topics": [
+          "adversarial-ml",
+          "ai-privacy",
+          "ai-red-teaming",
+          "ai-security",
+          "ai-vulnerabilities",
+          "llm-attacks",
+          "machine-learning",
+          "model-poisoning",
+          "open-source-security",
+          "prompt-injection",
+          "security-taxonomy"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "Marktechpost/AI-Guides-Reports",
+      "url": "https://github.com/Marktechpost/AI-Guides-Reports",
+      "description": "List of Reports and Guides related to AI, Machine Learning, Agentic AI, AI Agents, Deep Learning, LLMs etc",
+      "extra": {
+        "full_name": "Marktechpost/AI-Guides-Reports",
+        "stargazers_count": 15,
+        "language": null,
+        "topics": []
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "igamezgamble/w5-football-prediction",
+      "url": "https://github.com/igamezgamble/w5-football-prediction",
+      "description": "🏆 Research implementation of W-5 Multi-Agent AI Consensus Framework for football match outcome prediction | AI-powered sports analytics using LLMs + Machine Learning | 85.9% accuracy",
+      "extra": {
+        "full_name": "igamezgamble/w5-football-prediction",
+        "stargazers_count": 15,
+        "language": "Python",
+        "topics": []
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "jonigl/ai-publications",
+      "url": "https://github.com/jonigl/ai-publications",
+      "description": "Open-source guides and tutorials on AI agents, generative AI, and machine learning—covering Python, TypeScript, MCP server setup, MCP Clients, Ollama and LLM integration.",
+      "extra": {
+        "full_name": "jonigl/ai-publications",
+        "stargazers_count": 6,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "artificial-intelligence",
+          "generative-ai",
+          "how-to",
+          "learning",
+          "machine-learning",
+          "mcp",
+          "mcp-client",
+          "mcp-server",
+          "medium-articles",
+          "ollama",
+          "publications",
+          "python",
+          "step-by-step",
+          "tutorials",
+          "typescript"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "Anujpatel04/AI-ML-Lab",
+      "url": "https://github.com/Anujpatel04/AI-ML-Lab",
+      "description": "A collection of practical AI/ML projects, LLM applications, agents, RAG systems, and core machine learning implementations. Continuously updated with new features and experiments.",
+      "extra": {
+        "full_name": "Anujpatel04/AI-ML-Lab",
+        "stargazers_count": 6,
+        "language": "Python",
+        "topics": []
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+      "url": "https://github.com/Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+      "description": "[~]  IntegratedPipeline is a standalone AI Agent Library for Non-LLM memory Augmented Agentic Framework, Specifically designed to provide Agentic capability for any Autonomous Agentic Framework locally and Coordinatively that runs efficiently on Consumer based machine to High end embedded systems, While continuously learning and runs efficiently.",
+      "extra": {
+        "full_name": "Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+        "stargazers_count": 6,
+        "language": "Python",
+        "topics": [
+          "ai-agent-library",
+          "ai-for-embedded-systems",
+          "edge-ai",
+          "efficient-transformer",
+          "federated-learning-ai",
+          "geometric-deep-learning",
+          "local-ai-agents",
+          "machine-learning-algorithms",
+          "machine-learning-models",
+          "mlp-classifier",
+          "open-source",
+          "peer-to-peer",
+          "python",
+          "python-library",
+          "python-open-source-library"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "rvats20/python-ollama",
+      "url": "https://github.com/rvats20/python-ollama",
+      "description": "Python-llama Agents, LLM-Rag-Application, Aenerative-AI, Machine-Learning. Model Training, Implementing various machine learning algorithms such as Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting. Model Evaluation: Assessing model performance",
+      "extra": {
+        "full_name": "rvats20/python-ollama",
+        "stargazers_count": 5,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "deep-learning",
+          "deep-reinforcement-learning",
+          "generative-adversarial-network",
+          "generative-ai",
+          "generative-ai-projects",
+          "gpt",
+          "langchain-python",
+          "llama3",
+          "llm",
+          "machine-learning",
+          "python3",
+          "rag",
+          "transformer"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "Vegapunk-debug/customer-churn-agentic-retention-system",
+      "url": "https://github.com/Vegapunk-debug/customer-churn-agentic-retention-system",
+      "description": "An end-to-end Machine Learning and Agentic AI system to predict customer churn and generate structured retention strategies using LangGraph and Open-Source LLMs.",
+      "extra": {
+        "full_name": "Vegapunk-debug/customer-churn-agentic-retention-system",
+        "stargazers_count": 4,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "agentic-ai",
+          "customer-churn-prediction",
+          "langgraph",
+          "machine-learning",
+          "python",
+          "scikit-learn",
+          "streamlit"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "yzhou86/Data-Pilot",
+      "url": "https://github.com/yzhou86/Data-Pilot",
+      "description": "A data analytics AI Agent - use LLM to drive machine learning algorithms on dataset",
+      "extra": {
+        "full_name": "yzhou86/Data-Pilot",
+        "stargazers_count": 4,
+        "language": "Python",
+        "topics": [
+          "ai-agent",
+          "analytics",
+          "machine-learning"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "description": "I’ve completed the Nodebook Data Science & Machine Learning program, where I worked on real-world projects using Python, Machine Learning, Deep Learning, and Large Language Models (LLMs).  As part of my learning journey, I also explored Generative AI and AI Agents, gaining hands-on experience in building smart systems that can think, plan, and act.",
+      "extra": {
+        "full_name": "ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+        "stargazers_count": 3,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "agentic-ai",
+          "computer-vision",
+          "data-science",
+          "deep-learning",
+          "generative-ai",
+          "machine-learning",
+          "nlp",
+          "python"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "achrefbenammar404/ML.Guide",
+      "url": "https://github.com/achrefbenammar404/ML.Guide",
+      "description": "ML Guide is a multi-LLM agent system designed to assist users with their machine learning problems. This project was developed during a 17-hour hackathon at the AI National Summit (AINS) event on June 9, 2024.",
+      "extra": {
+        "full_name": "achrefbenammar404/ML.Guide",
+        "stargazers_count": 3,
+        "language": "Python",
+        "topics": [
+          "llm",
+          "machine-learning",
+          "multi-agent-systems"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "KacemMathlouthi/AINS-ML.Guide",
+      "url": "https://github.com/KacemMathlouthi/AINS-ML.Guide",
+      "description": "ML.GUIDE is a Multi-LLM Agent System designed to help professionals define, evaluate, and solve machine learning problems. It leverages specialized AI agents for tasks like problem definition, data assessment, model recommendations, research, and code generation. Developed in 17 hours during the AI National Summit (AINS) hackathon on June 9, 2024.",
+      "extra": {
+        "full_name": "KacemMathlouthi/AINS-ML.Guide",
+        "stargazers_count": 3,
+        "language": "Python",
+        "topics": [
+          "arxiv",
+          "crewai",
+          "jinaai",
+          "machine-learning",
+          "multi-agent-systems",
+          "sweetviz"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "ricard1406/Little_MCP",
+      "url": "https://github.com/ricard1406/Little_MCP",
+      "description": "A simple yet powerful local AI Agent assistant that runs entirely on your machine. Option for remote LLM. Built for learning and deploy, Little MCP combines the power of open-source LLMs with advanced RAG that work with your personal documents. Included tools: real time weather, local documents RAG, local SQL database. Easy deploy your own agent.",
+      "extra": {
+        "full_name": "ricard1406/Little_MCP",
+        "stargazers_count": 3,
+        "language": "Python",
+        "topics": [
+          "agent",
+          "claude",
+          "langchain",
+          "mariadb",
+          "mcp",
+          "mcp-client",
+          "mcp-server",
+          "mistral",
+          "ollama",
+          "python",
+          "python3",
+          "qwen",
+          "qwen3",
+          "rag",
+          "retrieval-augmented-generation",
+          "sql",
+          "thinking"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "simplysandeepp/finSight-AI",
+      "url": "https://github.com/simplysandeepp/finSight-AI",
+      "description": "FinSight AI is a sophisticated financial decision-support system that combines Traditional Quantitative Finance, Machine Learning (Quantile Regression), and Generative AI (LLM Agents) to provide probabilistic forecasts of company performance.",
+      "extra": {
+        "full_name": "simplysandeepp/finSight-AI",
+        "stargazers_count": 2,
+        "language": "Python",
+        "topics": [
+          "llms",
+          "multi-agent",
+          "orchestration-systems"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "ksbisht941/ai-engineer",
+      "url": "https://github.com/ksbisht941/ai-engineer",
+      "description": "A full-stack AI & ML engineering lab covering Python, Statistics, NumPy, Pandas, Matplotlib, Machine Learning, Deep Learning (ANN, CNN), Computer Vision (OpenCV, YOLO), NLP, LangChain, LangGraph, and Generative AI (RAG, LLMs, Embeddings, Agents). Includes FastAPI and hands-on projects.",
+      "extra": {
+        "full_name": "ksbisht941/ai-engineer",
+        "stargazers_count": 2,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "artificial-intelligence",
+          "computer-vision",
+          "data-science",
+          "data-visualization",
+          "deep-learning",
+          "fastapi",
+          "generative-ai",
+          "jupyter-notebook",
+          "langgraph",
+          "machine-learning",
+          "neural-networks",
+          "nlp-langchain",
+          "numpy",
+          "opencv",
+          "pandas",
+          "python",
+          "scikit-learn",
+          "statistics",
+          "yolo"
+        ]
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "jose-madureira/ai-references",
+      "url": "https://github.com/jose-madureira/ai-references",
+      "description": "Acervo organizado de referências sobre inteligência artificial voltados a data science, machine learning, natural language technologies, NLP, LLMs e AI agents. Inclui livros, cursos, projetos e bases de dados abertas para estudo e desenvolvimento.",
+      "extra": {
+        "full_name": "jose-madureira/ai-references",
+        "stargazers_count": 2,
+        "language": null,
+        "topics": []
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "LipeLacross/Complete-Artificial-Intelligence-Trainin",
+      "url": "https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin",
+      "description": "Repository for the Complete Artificial Intelligence Training (by Prof. Fernando Amaral), covering Machine Learning, Deep Learning, LLMs, Generative AI, NLP, Agents, Computer Vision, Anomaly Detection, Genetic Algorithms, Fuzzy Logic, and more. Includes theory and hands-on practice with Python, projects, and notebooks.",
+      "extra": {
+        "full_name": "LipeLacross/Complete-Artificial-Intelligence-Trainin",
+        "stargazers_count": 2,
+        "language": "Jupyter Notebook",
+        "topics": []
+      }
+    },
+    {
+      "source": "github_search",
+      "title": "taype/AI-Learn",
+      "url": "https://github.com/taype/AI-Learn",
+      "description": "AI learning , Python, Mathematics, Machine learning, Deep learning, Neural Networks, LLM, RAG, Prompts, Agents, AIOS, Paper and so on",
+      "extra": {
+        "full_name": "taype/AI-Learn",
+        "stargazers_count": 1,
+        "language": "Jupyter Notebook",
+        "topics": []
+      }
+    }
+  ]
+}

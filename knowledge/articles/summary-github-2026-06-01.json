@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-06-01T04:04:46.466088+00:00",
+  "source": "github_search",
+  "total_collected": 20,
+  "pre_filtered": 0,
+  "llm_error": 0,
+  "kept": 20,
+  "discarded": 0,
+  "duplicate": 0,
+  "articles": [
+    {
+      "id": "c523bc18",
+      "title": "Everything-AI-ML：生成式AI与机器学习综合学习资源集合",
+      "source": "github_search",
+      "source_url": "https://github.com/viveknaskar/everything-ai-ml",
+      "summary": "该项目收集并精选了生成式AI、机器学习、智能体AI、大语言模型、RAG、微调、MLOps等领域的优质学习资料，适合AI学习者和从业者快速入门与进阶。",
+      "tags": [
+        "AI学习资源",
+        "生成式AI",
+        "大语言模型",
+        "RAG",
+        "智能体",
+        "机器学习",
+        "精选列表"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 412,
+      "created_at": "2026-06-01T04:03:57.997418+00:00"
+    },
+    {
+      "id": "369824f7",
+      "title": "Agentic AI学习路线图：从Python到Agent系统实战",
+      "source": "github_search",
+      "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "summary": "一份系统的AI学习路线图，涵盖Python基础、数学、机器学习、深度学习、大语言模型及Agentic系统，强调动手项目、实用工具和真实部署环境下的学习。",
+      "tags": [
+        "AI学习路线图",
+        "Agentic AI",
+        "大语言模型",
+        "深度学习",
+        "机器学习",
+        "实战项目"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 99,
+      "created_at": "2026-06-01T04:03:57.997459+00:00"
+    },
+    {
+      "id": "d2ea5de0",
+      "title": "LLM安全漏洞与对抗攻击全面分类法",
+      "source": "github_search",
+      "source_url": "https://github.com/AI-Security-Research-Group/LLM-Attacks",
+      "summary": "该项目提供了一个综合性的AI安全漏洞分类体系，包含71+种攻击向量，覆盖大语言模型对抗攻击、提示注入、模型中毒、Agentic AI漏洞利用及隐私泄露等前沿安全研究。",
+      "tags": [
+        "AI安全",
+        "LLM攻击",
+        "提示注入",
+        "对抗性机器学习",
+        "安全分类法",
+        "隐私泄露"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 17,
+      "created_at": "2026-06-01T04:03:57.997481+00:00"
+    },
+    {
+      "id": "2c61e0a6",
+      "title": "AI指南与报告精选列表",
+      "source": "github_search",
+      "source_url": "https://github.com/Marktechpost/AI-Guides-Reports",
+      "summary": "收录了人工智能、机器学习、Agentic AI、AI智能体、深度学习及大语言模型相关的行业报告、技术指南和学习资料，方便获取最新趋势和知识。",
+      "tags": [
+        "AI报告",
+        "AI指南",
+        "资源列表",
+        "Agentic AI",
+        "大语言模型"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 15,
+      "created_at": "2026-06-01T04:03:57.997497+00:00"
+    },
+    {
+      "id": "d7b04d1c",
+      "title": "W-5多智能体共识框架在足球预测中的应用",
+      "source": "github_search",
+      "source_url": "https://github.com/igamezgamble/w5-football-prediction",
+      "summary": "基于W-5多智能体共识框架的足球比赛结果预测系统，融合大语言模型和机器学习技术，取得了85.9%的高准确率，展示了多智能体系统在体育数据分析中的应用潜力。",
+      "tags": [
+        "多智能体系统",
+        "足球预测",
+        "大语言模型",
+        "机器学习",
+        "体育分析"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 15,
+      "created_at": "2026-06-01T04:03:57.997517+00:00"
+    },
+    {
+      "id": "b310483e",
+      "title": "AI智能体与生成式AI实战教程合集",
+      "source": "github_search",
+      "source_url": "https://github.com/jonigl/ai-publications",
+      "summary": "提供关于AI智能体、生成式AI和机器学习的开源指南与教程，涵盖Python、TypeScript、MCP服务器搭建、Ollama集成及大语言模型应用等动手内容。",
+      "tags": [
+        "AI教程",
+        "AI智能体",
+        "生成式AI",
+        "MCP",
+        "Ollama",
+        "大语言模型"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 6,
+      "created_at": "2026-06-01T04:03:57.997532+00:00"
+    },
+    {
+      "id": "ef6d1301",
+      "title": "AI/ML实验项目集：LLM应用、智能体与RAG实现",
+      "source": "github_search",
+      "source_url": "https://github.com/Anujpatel04/AI-ML-Lab",
+      "summary": "一个持续更新的AI/ML实践项目库，包含LLM应用开发、智能体系统、RAG架构及经典机器学习算法的实现，适合动手学习和实验。",
+      "tags": [
+        "AI项目",
+        "LLM应用",
+        "RAG",
+        "智能体",
+        "机器学习",
+        "实验库"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 6,
+      "created_at": "2026-06-01T04:03:57.997547+00:00"
+    },
+    {
+      "id": "941089f0",
+      "title": "非LLM内存增强智能体框架：面向边缘的高效自主系统",
+      "source": "github_search",
+      "source_url": "https://github.com/Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+      "summary": "IntegratedPipeline是一个独立的AI智能体库，专为非LLM的内存增强型Agentic框架设计，可在消费级设备和高端嵌入式系统上本地化、协作式运行，支持持续学习和高效推理。",
+      "tags": [
+        "AI智能体框架",
+        "非LLM",
+        "边缘AI",
+        "联邦学习",
+        "深度学习",
+        "嵌入式系统"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 6,
+      "created_at": "2026-06-01T04:03:57.997572+00:00"
+    },
+    {
+      "id": "e2ab9be5",
+      "title": "Python-Ollama：LLM智能体与RAG应用开发",
+      "source": "github_search",
+      "source_url": "https://github.com/rvats20/python-ollama",
+      "summary": "基于Python的LLM智能体、RAG应用及生成式AI项目，涵盖模型训练、逻辑回归、决策树、随机森林等机器学习算法实现与模型评估。",
+      "tags": [
+        "LLM智能体",
+        "RAG",
+        "生成式AI",
+        "机器学习",
+        "Ollama",
+        "Python"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 5,
+      "created_at": "2026-06-01T04:03:57.997584+00:00"
+    },
+    {
+      "id": "0a50e045",
+      "title": "AI驱动的客户流失预测与主动留存系统",
+      "source": "github_search",
+      "source_url": "https://github.com/Vegapunk-debug/customer-churn-agentic-retention-system",
+      "summary": "端到端的机器学习与Agentic AI系统，利用LangGraph和开源LLM预测客户流失事件，并自动生成结构化的客户留存策略，将预测与决策行动结合。",
+      "tags": [
+        "客户流失预测",
+        "Agentic AI",
+        "LangGraph",
+        "大语言模型",
+        "留存策略"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 4,
+      "created_at": "2026-06-01T04:03:57.997594+00:00"
+    },
+    {
+      "id": "9a12e348",
+      "title": "Data-Pilot：基于LLM的数据分析AI Agent",
+      "source": "github_search",
+      "source_url": "https://github.com/yzhou86/Data-Pilot",
+      "summary": "Data-Pilot是一个数据分析AI Agent，使用LLM驱动数据集上的机器学习算法。它可自动进行数据分析流程，结合智能体与ML能力，适用于数据探索和建模。项目基于Python实现，目前仍早期阶段。",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "数据分析",
+        "机器学习",
+        "自动化",
+        "Python"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 4,
+      "created_at": "2026-06-01T04:03:57.997603+00:00"
+    },
+    {
+      "id": "16709ca4",
+      "title": "数据科学与机器学习Nodebook学习项目",
+      "source": "github_search",
+      "source_url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "summary": "个人学习项目整合，涵盖数据科学、机器学习、深度学习、计算机视觉、NLP、LLM、生成式AI与AI Agent等多个领域的实践笔记。通过Notebooks展示各主题的动手案例，有助于理解端到端AI系统构建。",
+      "tags": [
+        "学习笔记",
+        "教程",
+        "机器学习",
+        "LLM",
+        "生成式AI",
+        "AI Agent"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T04:03:57.997618+00:00"
+    },
+    {
+      "id": "925f4ef7",
+      "title": "ML.Guide：多LLM Agent的机器学习问题助手",
+      "source": "github_search",
+      "source_url": "https://github.com/achrefbenammar404/ML.Guide",
+      "summary": "ML.Guide是一个多LLM智能体系统，专为帮助用户定义、评估和解决机器学习问题而设计。项目在AI国家峰会黑客松中17小时内开发，使用多个LLM驱动不同Agent协作，提供问题定义、数据评估和模型推荐等功能。",
+      "tags": [
+        "多智能体系统",
+        "LLM",
+        "Agent",
+        "机器学习",
+        "CrewAI",
+        "黑客松"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T04:03:57.997628+00:00"
+    },
+    {
+      "id": "072d8851",
+      "title": "ML.GUIDE：面向专业人士的多智能体ML助手",
+      "source": "github_search",
+      "source_url": "https://github.com/KacemMathlouthi/AINS-ML.Guide",
+      "summary": "ML.GUIDE是一个多LLM智能体系统，集成CrewAI、JinaAI、Sweetviz等工具，通过专业化Agent协作完成ML问题定义、数据分析、模型推荐、论文调研和代码生成等任务。项目诞生于AINS黑客松，采用Python开发。",
+      "tags": [
+        "多智能体系统",
+        "LLM",
+        "CrewAI",
+        "机器学习",
+        "代码生成"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T04:03:57.997636+00:00"
+    },
+    {
+      "id": "740bea89",
+      "title": "Little_MCP：本地AI Agent助手，集成RAG与SQL",
+      "source": "github_search",
+      "source_url": "https://github.com/ricard1406/Little_MCP",
+      "summary": "Little_MCP是一个轻量但强大的本地AI Agent助手，完全在用户机器上运行，并可选接远程LLM。它利用开源LLM（如Ollama、Mistral、Qwen）与先进的RAG技术，支持个人文档问答、本地SQL数据库查询和实时天气等工具，且易于部署自定义Agent。",
+      "tags": [
+        "AI Agent",
+        "RAG",
+        "MCP",
+        "本地部署",
+        "LLM",
+        "Ollama"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T04:03:57.997644+00:00"
+    },
+    {
+      "id": "177ceb79",
+      "title": "FinSight AI：融合量化金融与LLM Agent的预测系统",
+      "source": "github_search",
+      "source_url": "https://github.com/simplysandeepp/finSight-AI",
+      "summary": "FinSight AI是一个金融决策支持系统，将传统量化金融、机器学习（分位数回归）和生成式AI（LLM Agent）结合，为公司业绩提供概率性预测。它利用多Agent协作和编排系统，提升预测鲁棒性和可解释性。",
+      "tags": [
+        "金融AI",
+        "LLM Agent",
+        "多智能体",
+        "量化金融",
+        "预测系统"
+      ],
+      "relevance_score": 7,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T04:03:57.997655+00:00"
+    },
+    {
+      "id": "761b83ad",
+      "title": "ai-engineer：全栈AI与ML工程学习实验室",
+      "source": "github_search",
+      "source_url": "https://github.com/ksbisht941/ai-engineer",
+      "summary": "全面的AI与ML工程学习库，覆盖Python、统计学、NumPy、Pandas、数据可视化、机器学习、深度学习、计算机视觉、NLP、LangChain、LangGraph、生成式AI（RAG、LLM、Embeddings、Agent）以及FastAPI。提供动手项目和Jupyter Notebook。",
+      "tags": [
+        "学习资源",
+        "AI工程师",
+        "LangChain",
+        "Agent",
+        "全栈",
+        "教程"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T04:03:57.997668+00:00"
+    },
+    {
+      "id": "3b2de403",
+      "title": "AI参考资料集：数据科学、NLP、LLM与Agent",
+      "source": "github_search",
+      "source_url": "https://github.com/jose-madureira/ai-references",
+      "summary": "结构化整理的AI参考资料，面向数据科学、机器学习、自然语言技术、NLP、LLM和AI智能体。收录书籍、课程、开源项目和数据库，为入门者与从业者提供学习路径和资源索引。",
+      "tags": [
+        "参考资料",
+        "AI学习",
+        "NLP",
+        "LLM",
+        "Agent",
+        "数据科学"
+      ],
+      "relevance_score": 4,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T04:03:57.997675+00:00"
+    },
+    {
+      "id": "abcbddd5",
+      "title": "完整人工智能训练课程（Fernando Amaral版）",
+      "source": "github_search",
+      "source_url": "https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin",
+      "summary": "Fernando Amaral教授的完整AI训练课程仓库，涵盖机器学习、深度学习、LLM、生成式AI、NLP、智能体、计算机视觉、异常检测、遗传算法和模糊逻辑。提供理论讲解与Python实践项目，以Jupyter Notebook形式呈现。",
+      "tags": [
+        "课程",
+        "AI训练",
+        "LLM",
+        "生成式AI",
+        "Agent",
+        "深度学习"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T04:03:57.997689+00:00"
+    },
+    {
+      "id": "7d57118c",
+      "title": "AI-Learn：AI学习资源集合",
+      "source": "github_search",
+      "source_url": "https://github.com/taype/AI-Learn",
+      "summary": "AI-Learn是一个AI学习仓库，包含Python、数学、机器学习、深度学习、神经网络、LLM、RAG、提示工程、智能体、AI操作系统以及论文阅读笔记等模块。以Jupyter Notebook形式组织，便于循序渐进地学习。",
+      "tags": [
+        "学习资源",
+        "AI基础",
+        "LLM",
+        "RAG",
+        "Agent",
+        "笔记"
+      ],
+      "relevance_score": 5,
+      "status": "kept",
+      "stars": 1,
+      "created_at": "2026-06-01T04:03:57.997697+00:00"
+    }
+  ]
+}
