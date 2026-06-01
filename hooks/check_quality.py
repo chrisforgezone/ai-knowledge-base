@@ -446,6 +446,7 @@ def main() -> int:
         except Exception as exc:
             errors.append((fp.name, f"解析异常 — {exc}"))
 
+        # using 40 character to show indicator of processing
         pct = int(idx / file_count * 40)
         bar = "█" * pct + "░" * (40 - pct)
         print(f"\r  [{bar}] {idx}/{file_count}", end="", flush=True)
