@@ -1,0 +1,119 @@
+2026-06-01 04:02:22.752 | INFO     | __main__:main:558 | ==================================================
+2026-06-01 04:02:22.752 | INFO     | __main__:main:559 | 开始采集: github
+2026-06-01 04:02:22.752 | INFO     | __main__:collect_github:123 | [GitHub] 调用搜索 API: q=ai+agent+llm+machine+learning, per_page=20
+2026-06-01 04:02:23.819 | INFO     | __main__:collect_github:131 | [GitHub] API 返回 20 条（总计 124）
+2026-06-01 04:02:23.819 | INFO     | __main__:collect_github:157 | [GitHub] 预筛选后保留 20 条，丢弃 0 条
+2026-06-01 04:02:23.819 | INFO     | __main__:save_raw_data:233 | [github] 原始数据已保存: knowledge/raw/github-2026-06-01.json
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] viveknaskar/everything-ai-ml — https://github.com/viveknaskar/everything-ai-ml
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] romanyn36/agentic-ai-roadmap — https://github.com/romanyn36/agentic-ai-roadmap
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] AI-Security-Research-Group/LLM-Attacks — https://github.com/AI-Security-Research-Group/LLM-Attacks
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] Marktechpost/AI-Guides-Reports — https://github.com/Marktechpost/AI-Guides-Reports
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] igamezgamble/w5-football-prediction — https://github.com/igamezgamble/w5-football-prediction
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] jonigl/ai-publications — https://github.com/jonigl/ai-publications
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] Anujpatel04/AI-ML-Lab — https://github.com/Anujpatel04/AI-ML-Lab
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework — https://github.com/Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] rvats20/python-ollama — https://github.com/rvats20/python-ollama
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] Vegapunk-debug/customer-churn-agentic-retention-system — https://github.com/Vegapunk-debug/customer-churn-agentic-retention-system
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] yzhou86/Data-Pilot — https://github.com/yzhou86/Data-Pilot
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook — https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] achrefbenammar404/ML.Guide — https://github.com/achrefbenammar404/ML.Guide
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] KacemMathlouthi/AINS-ML.Guide — https://github.com/KacemMathlouthi/AINS-ML.Guide
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] ricard1406/Little_MCP — https://github.com/ricard1406/Little_MCP
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] simplysandeepp/finSight-AI — https://github.com/simplysandeepp/finSight-AI
+2026-06-01 04:02:23.820 | INFO     | __main__:main:575 |   [COLLECTED] ksbisht941/ai-engineer — https://github.com/ksbisht941/ai-engineer
+2026-06-01 04:02:23.821 | INFO     | __main__:main:575 |   [COLLECTED] jose-madureira/ai-references — https://github.com/jose-madureira/ai-references
+2026-06-01 04:02:23.821 | INFO     | __main__:main:575 |   [COLLECTED] LipeLacross/Complete-Artificial-Intelligence-Trainin — https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin
+2026-06-01 04:02:23.821 | INFO     | __main__:main:575 |   [COLLECTED] taype/AI-Learn — https://github.com/taype/AI-Learn
+2026-06-01 04:02:23.821 | INFO     | __main__:main:558 | ==================================================
+2026-06-01 04:02:23.821 | INFO     | __main__:main:559 | 开始采集: rss
+2026-06-01 04:02:23.821 | INFO     | __main__:collect_rss:167 | [RSS] 获取: https://news.ycombinator.com/rss
+2026-06-01 04:02:24.041 | INFO     | __main__:collect_rss:177 | [RSS] 解析到 30 条 RSS entry
+2026-06-01 04:02:24.042 | INFO     | __main__:collect_rss:211 | [RSS] 预筛选后保留 7 条，丢弃 23 条
+2026-06-01 04:02:24.043 | INFO     | __main__:save_raw_data:233 | [rss] 原始数据已保存: knowledge/raw/rss-2026-06-01.json
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] 1-Bit Bonsai Image 4B Image Generation for Local Devices — https://news.ycombinator.com/item?id=48346257
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] United Airlines 767 returns to Newark after Bluetooth name sparks alert — https://news.ycombinator.com/item?id=48345248
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] ChatGPT for Google Sheets exfiltrates workbooks — https://news.ycombinator.com/item?id=48349487
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] The Speed of Prototyping in the Age of AI — https://news.ycombinator.com/item?id=48347153
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] What if remote working, not AI, is to blame for weak junior hiring? — https://news.ycombinator.com/item?id=48326721
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] The History of &quot;Prisencolinensinainciusol&quot; — https://news.ycombinator.com/item?id=48348737
+2026-06-01 04:02:24.043 | INFO     | __main__:main:575 |   [COLLECTED] Odysseus – self-hosted AI workspace — https://news.ycombinator.com/item?id=48346693
+2026-06-01 04:02:24.043 | INFO     | __main__:main:592 | ==================================================
+2026-06-01 04:02:24.043 | INFO     | __main__:main:593 | 开始分析: github (20 条)
+2026-06-01 04:02:24.061 | INFO     | __main__:analyze_batch:299 | [分析] 批次 1: 发送 10 条
+2026-06-01 04:03:12.624 | INFO     | __main__:analyze_batch:299 | [分析] 批次 2: 发送 10 条
+2026-06-01 04:03:57.997 | INFO     | __main__:_load_historical_urls:349 | [去重] 历史 URL 集合大小: 3
+2026-06-01 04:03:57.997 | INFO     | __main__:organize:438 | [github] 整理完成: kept=20, discarded=0, duplicate=0, error=0
+2026-06-01 04:03:57.997 | INFO     | __main__:main:592 | ==================================================
+2026-06-01 04:03:57.997 | INFO     | __main__:main:593 | 开始分析: rss (7 条)
+2026-06-01 04:03:58.015 | INFO     | __main__:analyze_batch:299 | [分析] 批次 1: 发送 7 条
+2026-06-01 04:04:46.465 | INFO     | __main__:_load_historical_urls:349 | [去重] 历史 URL 集合大小: 3
+2026-06-01 04:04:46.465 | INFO     | __main__:organize:438 | [rss] 整理完成: kept=5, discarded=2, duplicate=0, error=0
+2026-06-01 04:04:46.466 | INFO     | __main__:save_articles:475 | [github] 文章已保存: knowledge/articles/summary-github-2026-06-01.json
+2026-06-01 04:04:46.466 | INFO     | __main__:save_articles:475 | [rss] 文章已保存: knowledge/articles/summary-rss-2026-06-01.json
+2026-06-01 04:04:46.466 | INFO     | __main__:main:609 | ==================================================
+2026-06-01 04:04:46.466 | INFO     | __main__:main:610 | 流水线完成。
+2026-06-01 13:45:33.618 | INFO     | __main__:main:558 | ==================================================
+2026-06-01 13:45:33.618 | INFO     | __main__:main:559 | 开始采集: github
+2026-06-01 13:45:33.618 | INFO     | __main__:collect_github:123 | [GitHub] 调用搜索 API: q=ai+agent+llm+machine+learning, per_page=20
+2026-06-01 13:45:34.963 | INFO     | __main__:collect_github:131 | [GitHub] API 返回 20 条（总计 124）
+2026-06-01 13:45:34.963 | INFO     | __main__:collect_github:157 | [GitHub] 预筛选后保留 20 条，丢弃 0 条
+2026-06-01 13:45:34.964 | INFO     | __main__:save_raw_data:233 | [github] 原始数据已保存: knowledge/raw/github-2026-06-01.json
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] viveknaskar/everything-ai-ml — https://github.com/viveknaskar/everything-ai-ml
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] romanyn36/agentic-ai-roadmap — https://github.com/romanyn36/agentic-ai-roadmap
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] AI-Security-Research-Group/LLM-Attacks — https://github.com/AI-Security-Research-Group/LLM-Attacks
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] Marktechpost/AI-Guides-Reports — https://github.com/Marktechpost/AI-Guides-Reports
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] igamezgamble/w5-football-prediction — https://github.com/igamezgamble/w5-football-prediction
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] jonigl/ai-publications — https://github.com/jonigl/ai-publications
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] Anujpatel04/AI-ML-Lab — https://github.com/Anujpatel04/AI-ML-Lab
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework — https://github.com/Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] rvats20/python-ollama — https://github.com/rvats20/python-ollama
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] Vegapunk-debug/customer-churn-agentic-retention-system — https://github.com/Vegapunk-debug/customer-churn-agentic-retention-system
+2026-06-01 13:45:34.964 | INFO     | __main__:main:575 |   [COLLECTED] yzhou86/Data-Pilot — https://github.com/yzhou86/Data-Pilot
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook — https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] achrefbenammar404/ML.Guide — https://github.com/achrefbenammar404/ML.Guide
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] KacemMathlouthi/AINS-ML.Guide — https://github.com/KacemMathlouthi/AINS-ML.Guide
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] ricard1406/Little_MCP — https://github.com/ricard1406/Little_MCP
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] simplysandeepp/finSight-AI — https://github.com/simplysandeepp/finSight-AI
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] ksbisht941/ai-engineer — https://github.com/ksbisht941/ai-engineer
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] jose-madureira/ai-references — https://github.com/jose-madureira/ai-references
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] LipeLacross/Complete-Artificial-Intelligence-Trainin — https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin
+2026-06-01 13:45:34.965 | INFO     | __main__:main:575 |   [COLLECTED] taype/AI-Learn — https://github.com/taype/AI-Learn
+2026-06-01 13:45:34.965 | INFO     | __main__:main:558 | ==================================================
+2026-06-01 13:45:34.965 | INFO     | __main__:main:559 | 开始采集: rss
+2026-06-01 13:45:34.965 | INFO     | __main__:collect_rss:167 | [RSS] 获取: https://news.ycombinator.com/rss
+2026-06-01 13:45:35.327 | INFO     | __main__:collect_rss:177 | [RSS] 解析到 30 条 RSS entry
+2026-06-01 13:45:35.328 | INFO     | __main__:collect_rss:211 | [RSS] 预筛选后保留 7 条，丢弃 23 条
+2026-06-01 13:45:35.329 | INFO     | __main__:save_raw_data:233 | [rss] 原始数据已保存: knowledge/raw/rss-2026-06-01.json
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] When AI Crosses the Line: The Matplotlib Incident — https://news.ycombinator.com/item?id=48355751
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] 1-Bit Bonsai Image 4B Image Generation for Local Devices — https://news.ycombinator.com/item?id=48346257
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] ChatGPT for Google Sheets exfiltrates workbooks — https://news.ycombinator.com/item?id=48349487
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] United Airlines 767 returns to Newark after Bluetooth name sparks alert — https://news.ycombinator.com/item?id=48345248
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] LLMs Are Closer to Religion Than They Appear — https://news.ycombinator.com/item?id=48355229
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas — https://news.ycombinator.com/item?id=48352500
+2026-06-01 13:45:35.329 | INFO     | __main__:main:575 |   [COLLECTED] What if remote working, not AI, is to blame for weak junior hiring? — https://news.ycombinator.com/item?id=48326721
+2026-06-01 13:45:35.329 | INFO     | __main__:main:592 | ==================================================
+2026-06-01 13:45:35.329 | INFO     | __main__:main:593 | 开始分析: github (20 条)
+2026-06-01 13:45:35.346 | INFO     | __main__:analyze_batch:299 | [分析] 批次 1: 发送 10 条
+2026-06-01 13:46:46.952 | WARNING  | __main__:_parse_llm_response:273 | LLM 返回无法解析为 JSON 数组，整批标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 viveknaskar/everything-ai-ml 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 romanyn36/agentic-ai-roadmap 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 AI-Security-Research-Group/LLM-Attacks 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 Marktechpost/AI-Guides-Reports 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 igamezgamble/w5-football-prediction 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 jonigl/ai-publications 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 Anujpatel04/AI-ML-Lab 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework 解析失败，标记 error
+2026-06-01 13:46:46.952 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 rvats20/python-ollama 解析失败，标记 error
+2026-06-01 13:46:46.953 | WARNING  | __main__:analyze_batch:314 | [分析] 条目 Vegapunk-debug/customer-churn-agentic-retention-system 解析失败，标记 error
+2026-06-01 13:46:46.953 | INFO     | __main__:analyze_batch:299 | [分析] 批次 2: 发送 10 条
+2026-06-01 13:47:47.271 | INFO     | __main__:_load_historical_urls:349 | [去重] 历史 URL 集合大小: 3
+2026-06-01 13:47:47.272 | INFO     | __main__:organize:438 | [github] 整理完成: kept=10, discarded=0, duplicate=0, error=10
+2026-06-01 13:47:47.272 | INFO     | __main__:main:592 | ==================================================
+2026-06-01 13:47:47.272 | INFO     | __main__:main:593 | 开始分析: rss (7 条)
+2026-06-01 13:47:47.289 | INFO     | __main__:analyze_batch:299 | [分析] 批次 1: 发送 7 条
+2026-06-01 13:48:27.053 | INFO     | __main__:_load_historical_urls:349 | [去重] 历史 URL 集合大小: 3
+2026-06-01 13:48:27.053 | INFO     | __main__:organize:438 | [rss] 整理完成: kept=5, discarded=2, duplicate=0, error=0
+2026-06-01 13:48:27.054 | INFO     | __main__:save_articles:475 | [github] 文章已保存: knowledge/articles/summary-github-2026-06-01.json
+2026-06-01 13:48:27.054 | INFO     | __main__:save_articles:475 | [rss] 文章已保存: knowledge/articles/summary-rss-2026-06-01.json
+2026-06-01 13:48:27.054 | INFO     | __main__:main:609 | ==================================================
+2026-06-01 13:48:27.054 | INFO     | __main__:main:610 | 流水线完成。

@@ -1,0 +1,314 @@
+{
+  "generated_at": "2026-06-01T13:48:27.053710+00:00",
+  "source": "github_search",
+  "total_collected": 20,
+  "pre_filtered": 0,
+  "llm_error": 10,
+  "kept": 10,
+  "discarded": 0,
+  "duplicate": 0,
+  "articles": [
+    {
+      "id": "c523bc18",
+      "title": "viveknaskar/everything-ai-ml",
+      "source": "github_search",
+      "source_url": "https://github.com/viveknaskar/everything-ai-ml",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 412,
+      "created_at": "2026-06-01T13:47:47.271906+00:00"
+    },
+    {
+      "id": "369824f7",
+      "title": "romanyn36/agentic-ai-roadmap",
+      "source": "github_search",
+      "source_url": "https://github.com/romanyn36/agentic-ai-roadmap",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 99,
+      "created_at": "2026-06-01T13:47:47.271936+00:00"
+    },
+    {
+      "id": "d2ea5de0",
+      "title": "AI-Security-Research-Group/LLM-Attacks",
+      "source": "github_search",
+      "source_url": "https://github.com/AI-Security-Research-Group/LLM-Attacks",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 17,
+      "created_at": "2026-06-01T13:47:47.271951+00:00"
+    },
+    {
+      "id": "2c61e0a6",
+      "title": "Marktechpost/AI-Guides-Reports",
+      "source": "github_search",
+      "source_url": "https://github.com/Marktechpost/AI-Guides-Reports",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 15,
+      "created_at": "2026-06-01T13:47:47.271963+00:00"
+    },
+    {
+      "id": "d7b04d1c",
+      "title": "igamezgamble/w5-football-prediction",
+      "source": "github_search",
+      "source_url": "https://github.com/igamezgamble/w5-football-prediction",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 15,
+      "created_at": "2026-06-01T13:47:47.271974+00:00"
+    },
+    {
+      "id": "b310483e",
+      "title": "jonigl/ai-publications",
+      "source": "github_search",
+      "source_url": "https://github.com/jonigl/ai-publications",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 6,
+      "created_at": "2026-06-01T13:47:47.271985+00:00"
+    },
+    {
+      "id": "ef6d1301",
+      "title": "Anujpatel04/AI-ML-Lab",
+      "source": "github_search",
+      "source_url": "https://github.com/Anujpatel04/AI-ML-Lab",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 6,
+      "created_at": "2026-06-01T13:47:47.272001+00:00"
+    },
+    {
+      "id": "941089f0",
+      "title": "Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+      "source": "github_search",
+      "source_url": "https://github.com/Micro-Novelty/IntegratedPipeline-Specialized-Non-LLM-AI-Agent-Framework",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 6,
+      "created_at": "2026-06-01T13:47:47.272022+00:00"
+    },
+    {
+      "id": "e2ab9be5",
+      "title": "rvats20/python-ollama",
+      "source": "github_search",
+      "source_url": "https://github.com/rvats20/python-ollama",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 5,
+      "created_at": "2026-06-01T13:47:47.272034+00:00"
+    },
+    {
+      "id": "0a50e045",
+      "title": "Vegapunk-debug/customer-churn-agentic-retention-system",
+      "source": "github_search",
+      "source_url": "https://github.com/Vegapunk-debug/customer-churn-agentic-retention-system",
+      "summary": "",
+      "tags": [],
+      "relevance_score": 1,
+      "status": "error",
+      "stars": 4,
+      "created_at": "2026-06-01T13:47:47.272046+00:00"
+    },
+    {
+      "id": "9a12e348",
+      "title": "Data-Pilot: 基于LLM的数据分析AI Agent",
+      "source": "github_search",
+      "source_url": "https://github.com/yzhou86/Data-Pilot",
+      "summary": "Data-Pilot 是一个数据分析AI Agent，利用大语言模型（LLM）驱动机器学习算法对数据集进行智能分析。项目采用Python实现，结合AI Agent与数据分析，旨在通过自然语言交互简化数据探索与建模流程。",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "数据分析",
+        "机器学习",
+        "Python"
+      ],
+      "relevance_score": 9,
+      "status": "kept",
+      "stars": 4,
+      "created_at": "2026-06-01T13:47:47.272063+00:00"
+    },
+    {
+      "id": "16709ca4",
+      "title": "数据科学与机器学习Nodebook: 涵盖生成式AI与Agent实践",
+      "source": "github_search",
+      "source_url": "https://github.com/ahmadsanafarooq/Data-Science-Machine-Learning-Nodebook",
+      "summary": "个人完成的数据科学与机器学习课程项目集合，使用Python、机器学习、深度学习及大语言模型（LLM），并探索了生成式AI与AI Agent，包含构建能思考、规划、行动的智能系统的实践经验。",
+      "tags": [
+        "学习资源",
+        "LLM",
+        "生成式AI",
+        "AI Agent",
+        "Jupyter Notebook"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T13:47:47.272101+00:00"
+    },
+    {
+      "id": "925f4ef7",
+      "title": "ML.Guide: 多LLM Agent系统解决机器学习难题",
+      "source": "github_search",
+      "source_url": "https://github.com/achrefbenammar404/ML.Guide",
+      "summary": "ML Guide 是一个多LLM Agent系统，专门协助用户定义、评估和解决机器学习问题。项目在2024年AI国家峰会（AINS）的17小时黑客马拉松中开发，利用多个AI Agent协作完成问题定义、数据评估、模型推荐、研究和代码生成等任务。",
+      "tags": [
+        "多Agent系统",
+        "LLM",
+        "机器学习辅助",
+        "CrewAI",
+        "Hackathon"
+      ],
+      "relevance_score": 9,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T13:47:47.272113+00:00"
+    },
+    {
+      "id": "072d8851",
+      "title": "AINS-ML.Guide: 基于CrewAI的多Agent机器学习辅助系统",
+      "source": "github_search",
+      "source_url": "https://github.com/KacemMathlouthi/AINS-ML.Guide",
+      "summary": "ML.GUIDE 是一个多LLM Agent系统，使用CrewAI等框架实现专业化AI Agent，帮助专业人员完成机器学习问题的定义、数据评估、模型推荐、研究检索与代码生成。项目在2024年6月的AI国家峰会黑客马拉松中用17小时建成。",
+      "tags": [
+        "多Agent系统",
+        "LLM",
+        "机器学习",
+        "CrewAI",
+        "JinaAI"
+      ],
+      "relevance_score": 9,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T13:47:47.272124+00:00"
+    },
+    {
+      "id": "740bea89",
+      "title": "Little MCP: 集成RAG与SQL的本地AI Agent助手",
+      "source": "github_search",
+      "source_url": "https://github.com/ricard1406/Little_MCP",
+      "summary": "Little MCP 是一个轻量但功能强大的本地AI Agent助手，完全在本地运行，也可连接远程LLM。项目结合开源LLM（如Mistral、Qwen）与检索增强生成（RAG），提供个人文档问答、实时天气查询和本地SQL数据库操作，并实现了MCP（Model Context Protocol）接口，便于部署自定义Agent。",
+      "tags": [
+        "AI Agent",
+        "MCP",
+        "RAG",
+        "本地LLM",
+        "Ollama",
+        "SQL"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 3,
+      "created_at": "2026-06-01T13:47:47.272140+00:00"
+    },
+    {
+      "id": "177ceb79",
+      "title": "finSight-AI: 融合量化金融与LLM Agent的决策支持系统",
+      "source": "github_search",
+      "source_url": "https://github.com/simplysandeepp/finSight-AI",
+      "summary": "finSight AI 是一个金融决策支持系统，将传统量化金融、机器学习（分位数回归）与生成式AI（多Agent LLM系统）相结合，提供概率化的公司绩效预测。项目使用了多Agent编排系统。",
+      "tags": [
+        "AI Agent",
+        "多Agent",
+        "LLM",
+        "金融科技",
+        "量化金融"
+      ],
+      "relevance_score": 8,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T13:47:47.272151+00:00"
+    },
+    {
+      "id": "761b83ad",
+      "title": "ai-engineer: 全栈AI与ML工程学习实验",
+      "source": "github_search",
+      "source_url": "https://github.com/ksbisht941/ai-engineer",
+      "summary": "一个全栈AI与机器学习工程学习仓库，覆盖Python、统计、数据处理、机器学习、深度学习、计算机视觉、自然语言处理、LangChain、LangGraph及生成式AI（RAG、LLM、Embeddings、Agents），并包含FastAPI和实操项目。",
+      "tags": [
+        "学习资源",
+        "AI工程",
+        "LangChain",
+        "LangGraph",
+        "生成式AI",
+        "Jupyter Notebook"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T13:47:47.272162+00:00"
+    },
+    {
+      "id": "3b2de403",
+      "title": "ai-references: AI与数据科学参考资源合集",
+      "source": "github_search",
+      "source_url": "https://github.com/jose-madureira/ai-references",
+      "summary": "一个有组织的人工智能参考资源库，涵盖数据科学、机器学习、自然语言处理、大语言模型（LLM）和AI Agent等领域的书籍、课程、项目及开放数据集，用于学习与开发。",
+      "tags": [
+        "资源列表",
+        "AI参考",
+        "LLM",
+        "Agent",
+        "数据科学"
+      ],
+      "relevance_score": 5,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T13:47:47.272174+00:00"
+    },
+    {
+      "id": "abcbddd5",
+      "title": "Complete-Artificial-Intelligence-Trainin: 全面AI训练课程",
+      "source": "github_search",
+      "source_url": "https://github.com/LipeLacross/Complete-Artificial-Intelligence-Trainin",
+      "summary": "本仓库是《完整人工智能训练》课程的配套资料，涵盖机器学习、深度学习、大语言模型、生成式AI、NLP、Agent、计算机视觉等主题，包含理论与基于Python的实战项目和Jupyter笔记本。",
+      "tags": [
+        "学习资源",
+        "AI训练",
+        "LLM",
+        "生成式AI",
+        "Agent"
+      ],
+      "relevance_score": 6,
+      "status": "kept",
+      "stars": 2,
+      "created_at": "2026-06-01T13:47:47.272187+00:00"
+    },
+    {
+      "id": "7d57118c",
+      "title": "AI-Learn: AI学习笔记与多主题参考",
+      "source": "github_search",
+      "source_url": "https://github.com/taype/AI-Learn",
+      "summary": "个人AI学习笔记仓库，内容涉及Python、数学、机器学习、深度学习、神经网络、大语言模型（LLM）、检索增强生成（RAG）、提示工程、AI Agent以及AI操作系统（AIOS）等论文和知识。",
+      "tags": [
+        "学习笔记",
+        "LLM",
+        "AI Agent",
+        "RAG",
+        "AIOS"
+      ],
+      "relevance_score": 5,
+      "status": "kept",
+      "stars": 1,
+      "created_at": "2026-06-01T13:47:47.272197+00:00"
+    }
+  ]
+}

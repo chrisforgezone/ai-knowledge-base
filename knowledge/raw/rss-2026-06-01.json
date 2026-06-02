@@ -1,0 +1,71 @@
+{
+  "source": "hacker_news_rss",
+  "fetched_at": "2026-06-01T13:45:35.328965+00:00",
+  "total": 30,
+  "pre_filtered": 23,
+  "items": [
+    {
+      "source": "hacker_news_rss",
+      "title": "When AI Crosses the Line: The Matplotlib Incident",
+      "url": "https://news.ycombinator.com/item?id=48355751",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "url": "https://news.ycombinator.com/item?id=48346257",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://prismml.com/news/bonsai-image-4b"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "url": "https://news.ycombinator.com/item?id=48349487",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+      "url": "https://news.ycombinator.com/item?id=48345248",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "LLMs Are Closer to Religion Than They Appear",
+      "url": "https://news.ycombinator.com/item?id=48355229",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://www.theregister.com/ai-ml/2026/06/01/llms-are-closer-to-religion-than-they-appear-watch-out-for-those-who-like-it-that-way/5248189"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "Rubin Tracks Skyscraper-Size Asteroids and Failed Supernovas",
+      "url": "https://news.ycombinator.com/item?id=48352500",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/"
+      }
+    },
+    {
+      "source": "hacker_news_rss",
+      "title": "What if remote working, not AI, is to blame for weak junior hiring?",
+      "url": "https://news.ycombinator.com/item?id=48326721",
+      "description": "Comments",
+      "extra": {
+        "hn_url": "https://www.ft.com/content/2205e2d0-50dc-4e80-9bf7-78d0272276c0"
+      }
+    }
+  ]
+}
