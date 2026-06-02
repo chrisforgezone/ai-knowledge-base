@@ -1,6 +1,6 @@
 """统一 LLM 客户端 — 工厂模式封装多模型调用
 
-支持 DeepSeek、Qwen、OpenAI，通过环境变量切换。
+支持 DeepSeek、Qwen、OpenAI、Anthropic，通过环境变量切换。
 返回统一格式：LLMResponse dataclass（content + Usage 用量统计）
 """
 
@@ -21,6 +21,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 # ── 数据结构 ──────────────────────────────────────────────────
+
 
 @dataclass
 class Usage:
@@ -62,6 +63,10 @@ PRICING: dict[str, dict[str, float]] = {
     "qwen-turbo": {"input": 0.0005, "output": 0.001},
     "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
     "gpt-4o": {"input": 0.005, "output": 0.015},
+    "claude-sonnet-4-20250514": {"input": 0.003, "output": 0.015},
+    "claude-3-5-sonnet-20241022": {"input": 0.003, "output": 0.015},
+    "claude-3-5-haiku-20241022": {"input": 0.0008, "output": 0.004},
+    "claude-opus-4-20250514": {"input": 0.015, "output": 0.075},
 }
 
 
@@ -75,6 +80,7 @@ def estimate_cost(model: str, usage: Usage) -> float:
 
 
 # ── Provider 抽象基类 ────────────────────────────────────────
+
 
 class LLMProvider(ABC):
     """LLM 提供商抽象基类"""
@@ -128,9 +134,53 @@ class OpenAICompatibleProvider(LLMProvider):
         return LLMResponse(content=content, usage=usage)
 
 
+class AnthropicProvider(LLMProvider):
+    """Anthropic Claude Messages API 提供商。
+
+    API 文档: https://docs.anthropic.com/en/api/messages
+    """
+
+    def chat(self, messages, temperature=0.7, max_tokens=2000) -> LLMResponse:
+        system_content = ""
+        api_messages: list[dict[str, str]] = []
+        for msg in messages:
+            if msg["role"] == "system":
+                system_content = msg["content"]
+            else:
+                api_messages.append({"role": msg["role"], "content": msg["content"]})
+
+        url = f"{self.base_url}/v1/messages"
+        headers = {
+            "x-api-key": self.api_key,
+            "anthropic-version": "2023-06-01",
+            "Content-Type": "application/json",
+        }
+        payload: dict[str, Any] = {
+            "model": self.model,
+            "max_tokens": max_tokens,
+            "messages": api_messages,
+        }
+        if system_content:
+            payload["system"] = system_content
+        if temperature > 0:
+            payload["temperature"] = temperature
+
+        resp = self.client.post(url, json=payload, headers=headers)
+        resp.raise_for_status()
+        data = resp.json()
+
+        content = data["content"][0]["text"]
+        usage_data = data.get("usage", {})
+        usage = Usage(
+            prompt_tokens=usage_data.get("input_tokens", 0),
+            completion_tokens=usage_data.get("output_tokens", 0),
+        )
+        return LLMResponse(content=content, usage=usage)
+
+
 # ── 工厂函数 ─────────────────────────────────────────────────
 
-PROVIDER_CONFIG: dict[str, dict[str, str]] = {
+PROVIDER_CONFIG: dict[str, dict[str, Any]] = {
     "deepseek": {
         "api_key_env": "DEEPSEEK_API_KEY",
         "base_url_env": "DEEPSEEK_BASE_URL",
@@ -152,6 +202,14 @@ PROVIDER_CONFIG: dict[str, dict[str, str]] = {
         "default_base_url": "https://api.openai.com/v1",
         "default_model": "gpt-4o-mini",
     },
+    "anthropic": {
+        "type": "anthropic",
+        "api_key_env": "ANTHROPIC_API_KEY",
+        "base_url_env": "ANTHROPIC_BASE_URL",
+        "model_env": "ANTHROPIC_MODEL",
+        "default_base_url": "https://api.anthropic.com",
+        "default_model": "claude-sonnet-4-20250514",
+    },
 }
 
 
@@ -159,7 +217,7 @@ def create_provider(provider_name: str | None = None) -> LLMProvider:
     """工厂函数：根据提供商名称创建对应的 LLM 客户端。
 
     Args:
-        provider_name: 提供商名称（deepseek/qwen/openai），
+        provider_name: 提供商名称（deepseek/qwen/openai/anthropic），
                        默认读取环境变量 LLM_PROVIDER
 
     Returns:
@@ -178,10 +236,14 @@ def create_provider(provider_name: str | None = None) -> LLMProvider:
     model = os.getenv(config["model_env"], config["default_model"])
 
     logger.info("创建 LLM 客户端: provider=%s, model=%s", name, model)
+
+    if config.get("type") == "anthropic":
+        return AnthropicProvider(api_key=api_key, base_url=base_url, model=model)
     return OpenAICompatibleProvider(api_key=api_key, base_url=base_url, model=model)
 
 
 # ── 带重试的调用封装 ──────────────────────────────────────────
+
 
 def chat_with_retry(
     provider: LLMProvider,
@@ -211,6 +273,7 @@ def chat_with_retry(
 
 
 # ── 便捷函数 ─────────────────────────────────────────────────
+
 
 def quick_chat(
     prompt: str,
@@ -248,7 +311,7 @@ def chat(
     Args:
         prompt: 用户提示词
         system: 系统提示词
-        provider: 提供商名称（deepseek/qwen/openai），默认读环境变量
+        provider: 提供商名称（deepseek/qwen/openai/anthropic），默认读环境变量
         max_retries: 最大重试次数
 
     Returns:
@@ -278,4 +341,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n错误: {e}")
         print("请检查 .env 文件中的 API Key 配置。")
-
