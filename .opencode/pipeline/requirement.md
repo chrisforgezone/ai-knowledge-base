@@ -16,7 +16,7 @@ CLI 设计：
 关键约束：
 - 采集层用 httpx 发 HTTP 请求，RSS 用简易正则解析
 - 分析层调用 model_client 的 chat_with_retry()（需要 API Key）
-- 采集数据存入 knowledge/raw/，最终文章存入 knowledge/articles/
+- 采集数据存入 knowledge/raw/source-{date}.json，最终文章存入 knowledge/articles/summary-{date}.json
 - model_client 在同目录下，用 from model_client import create_provider, chat_with_retry
 
 编码规范：遵循 PEP 8，用 argparse 解析参数，用 pathlib 处理路径

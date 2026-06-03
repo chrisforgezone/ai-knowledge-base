@@ -5,6 +5,7 @@ Usage:
     python pipeline.py --sources github,rss --limit 20
     python pipeline.py --sources github --limit 5 --dry-run
     python pipeline.py --sources rss --limit 10 --verbose
+    python pipeline.py --sources github --limit 5 --provider anthropic
 """
 
 from __future__ import annotations
@@ -27,7 +28,7 @@ _THIS_DIR = Path(__file__).resolve().parent
 if str(_THIS_DIR) not in sys.path:
     sys.path.insert(0, str(_THIS_DIR))
 
-from model_client import chat_with_retry, create_provider  # noqa: E402
+from model_client import chat_with_retry, create_provider, create_tracker  # noqa: E402
 from models import (  # noqa: E402
     Article,
     ArticleStatus,
@@ -286,9 +287,19 @@ def _parse_llm_response(raw_text: str, expected_count: int) -> list[dict[str, An
     return parsed[:expected_count]
 
 
-def analyze_batch(raw_items: list[RawItem]) -> tuple[list[LLMAnalysisResult | None], int]:
-    """批量调用 LLM 分析条目，返回 (结果列表, error_count)。"""
-    provider = create_provider()
+def analyze_batch(
+    raw_items: list[RawItem],
+    provider_name: str | None = None,
+    tracker: Any = None,
+) -> tuple[list[LLMAnalysisResult | None], int]:
+    """批量调用 LLM 分析条目，返回 (结果列表, error_count)。
+
+    Args:
+        raw_items: 待分析的原始条目列表
+        provider_name: LLM 提供商名称，None 时用默认
+        tracker: 可选的 CostTracker 实例，传入后自动记录每次调用
+    """
+    provider = create_provider(provider_name)
     all_results: list[LLMAnalysisResult | None] = []
     error_count = 0
 
@@ -304,6 +315,7 @@ def analyze_batch(raw_items: list[RawItem]) -> tuple[list[LLMAnalysisResult | No
             ]
             response = chat_with_retry(
                 provider, messages, temperature=0.3, max_tokens=LLM_MAX_TOKENS,
+                tracker=tracker,
             )
             parsed = _parse_llm_response(response.content, len(batch))
 
@@ -499,10 +511,11 @@ def parse_args() -> argparse.Namespace:
         epilog="示例:\n"
                "  python pipeline.py --sources github,rss --limit 20\n"
                "  python pipeline.py --sources github --limit 5 --dry-run\n"
-               "  python pipeline.py --sources rss --limit 10 --verbose",
+               "  python pipeline.py --sources rss --limit 10 --verbose\n"
+               "  python pipeline.py --sources github --limit 5 --provider anthropic",
     )
     parser.add_argument(
-        "--sources", required=True,
+        "--sources", type=str, default="github",
         help="采集源（逗号分隔）：github, rss",
     )
     parser.add_argument(
@@ -521,14 +534,28 @@ def parse_args() -> argparse.Namespace:
         "--verbose", action="store_true",
         help="详细日志：实时打印每条采集结果",
     )
+    parser.add_argument(
+        "--provider", choices=["deepseek", "qwen", "openai", "anthropic"],
+        default=None,
+        help="LLM 提供商（默认读取环境变量 LLM_PROVIDER）",
+    )
     return parser.parse_args()
 
 
 def setup_logging(verbose: bool, date_str: str) -> None:
-    """配置 loguru：stderr + 文件日志。"""
+    """配置 loguru + 标准 logging：stderr + 文件日志。"""
+    import logging
+
     logger.remove()
     level = "DEBUG" if verbose else "INFO"
     logger.add(sys.stderr, level=level, format="<level>{level: <8}</level> | {message}")
+
+    # 标准 logging 桥接到 stderr（model_client 的 CostTracker.report() 依赖）
+    logging.basicConfig(
+        level=logging.DEBUG if verbose else logging.INFO,
+        format="%(levelname)-8s | %(message)s",
+        stream=sys.stderr,
+    )
 
     log_dir = Path("knowledge/raw")
     log_dir.mkdir(parents=True, exist_ok=True)
@@ -586,6 +613,7 @@ def main() -> None:
         return
 
     # ── Step 2-3: 分析 + 整理（逐源处理） ──
+    pipeline_tracker = create_tracker(args.provider)
     all_articles: dict[str, list[Article]] = {}
     for src, (raw_items, _total, _pre) in all_raw.items():
         source_id = "github_search" if src == "github" else "hacker_news_rss"
@@ -597,7 +625,9 @@ def main() -> None:
             all_articles[source_id] = []
             continue
 
-        analysis_results, error_count = analyze_batch(raw_items)
+        analysis_results, error_count = analyze_batch(
+            raw_items, provider_name=args.provider, tracker=pipeline_tracker,
+        )
         articles = organize(raw_items, analysis_results, source_id, today, args.min_score)
         all_articles[source_id] = articles
 
@@ -608,6 +638,7 @@ def main() -> None:
 
     logger.info("=" * 50)
     logger.info("流水线完成。")
+    pipeline_tracker.report()
 
 
 if __name__ == "__main__":
